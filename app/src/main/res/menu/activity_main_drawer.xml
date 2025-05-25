@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rolante"
+            android:title="@string/campusrolante" />
+        <item
+            android:id="@+id/nav_cursos"
+            android:title="@string/cursos" />
+        <item
+            android:id="@+id/nav_inscricao"
+            android:title="@string/menu_inscricoes" />
+        <item
+            android:id="@+id/nav_oportunidades"
+            android:title="@string/menu_oportunidades" />
+        <item
+            android:id="@+id/nav_nucleos"
+            android:title="@string/nucleos" />
+
+        <item
+            android:id="@+id/nav_transporte"
+            android:title="@string/menu_transporte" />
+
+        <item
+            android:id="@+id/nav_redes"
+            android:title="@string/redes" />
+        <item
+            android:id="@+id/nav_desenvolvedoras"
+            android:title="@string/dev" />
+    </group>
+</menu>

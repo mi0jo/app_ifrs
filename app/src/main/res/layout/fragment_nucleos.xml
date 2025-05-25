@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pessoasestudando">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_numen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/numen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
+            <Button
+                android:id="@+id/btn_nepgs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nepgs"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
+            <Button
+                android:id="@+id/btn_napne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/napne"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
+            <Button
+                android:id="@+id/btn_neabi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/neabi"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

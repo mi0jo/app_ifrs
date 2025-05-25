@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">IFRS - Campus Rolante</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_oportunidades">Oportunidades Acadêmicas</string>
+    <string name="menu_inscricoes">Inscrições</string>
+    <string name="menu_transporte">Trasporte</string>
+    <string name="rolante">IFRS - Campus Rolante</string>
+    <string name="nucleos">Núcleos</string>
+    <string name="redes">Redes Sociais</string>
+    <string name="dev">Desenvolvedoras</string>
+    <string name="campusrolante">Campus Rolante</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cursos">Cursos</string>
+    <string name="adm">Administração</string>
+    <string name="info">Informática</string>
+    <string name="ads">Analise e desenvolvimento de sistemas</string>
+    <string name="tpg">Processos Gerenciais</string>
+    <string name="comercio">Comércio EJA</string>
+    <string name="agro">Agropecuária</string>
+    <string name="bolsas">Bolsas</string>
+    <string name="esportes">Esportes</string>
+    <string name="visitas">Visítas técnicas</string>
+    <string name="feiras">Feiras Científicas</string>
+    <string name="olimpiadas">Olimpíadas de conhecimento</string>
+    <string name="intercambio">Intercâmbio</string>
+    <string name="admpreja">Administração EJA EPT</string>
+    <string name="numen">NuMen</string>
+    <string name="nepgs">NEPGS</string>
+    <string name="napne">NAPNE</string>
+    <string name="neabi">NEABI</string>
+</resources>

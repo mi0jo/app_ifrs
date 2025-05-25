@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_rolante">
+
+    <fragment
+        android:id="@+id/nav_cursos"
+        android:name="com.example.ifrs_campusrolante.ui.cursos.cursosFragment"
+        android:label="Cursos" >
+        <action
+            android:id="@+id/action_cursos_to_info"
+            app:destination="@id/nav_info" />
+        <action
+            android:id="@+id/action_cursos_to_agro"
+            app:destination="@id/nav_agro" />
+        <action
+            android:id="@+id/action_cursos_to_tpg"
+            app:destination="@id/nav_tpg" />
+        <action
+            android:id="@+id/action_cursos_to_ads"
+            app:destination="@id/nav_ads" />
+        <action
+            android:id="@+id/action_cursos_to_comercio"
+            app:destination="@id/nav_comercio" />
+        <action
+            android:id="@+id/action_cursos_to_admeja"
+            app:destination="@id/nav_admeja" />
+        <action
+            android:id="@+id/action_cursos_to_adm"
+            app:destination="@id/nav_adm" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_adm"
+        android:name="com.example.ifrs_campusrolante.ui.cursos.admFragment"
+        android:label="@string/adm" />
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.ifrs_campusrolante.ui.cursos.infoFragment"
+        android:label="@string/info" />
+    <fragment
+        android:id="@+id/nav_agro"
+        android:name="com.example.ifrs_campusrolante.ui.cursos.agroFragment"
+        android:label="@string/agro" />
+    <fragment
+        android:id="@+id/nav_admeja"
+        android:name="com.example.ifrs_campusrolante.ui.cursos.admejaFragment"
+        android:label="@string/admpreja" />
+    <fragment
+        android:id="@+id/nav_ads"
+        android:name="com.example.ifrs_campusrolante.ui.cursos.adsFragment"
+        android:label="@string/ads" />
+    <fragment
+        android:id="@+id/nav_comercio"
+        android:name="com.example.ifrs_campusrolante.ui.cursos.comercioFragment"
+        android:label="@string/comercio" />
+    <fragment
+        android:id="@+id/nav_tpg"
+        android:name="com.example.ifrs_campusrolante.ui.cursos.tpgFragment"
+        android:label="@string/tpg" />
+
+
+    <fragment
+        android:id="@+id/nav_inscricao"
+        android:name="com.example.ifrs_campusrolante.ui.incricao.inscricaoFragment"
+        android:label="@string/menu_inscricoes"
+        tools:layout="@layout/fragment_inscricao" />
+
+    <fragment
+        android:id="@+id/nav_oportunidades"
+        android:name="com.example.ifrs_campusrolante.ui.oportunidades.oportunidadesFragment"
+        android:label="@string/menu_oportunidades"
+        tools:layout="@layout/fragment_oportunidades" >
+        <action
+            android:id="@+id/action_oportunidades_to_bolsas"
+            app:destination="@id/nav_bolsas" />
+        <action
+            android:id="@+id/action_oportunidades_to_esportes"
+            app:destination="@id/nav_esportes" />
+        <action
+            android:id="@+id/action_oportunidades_to_visitas"
+            app:destination="@id/nav_visitas" />
+        <action
+            android:id="@+id/action_oportunidades_to_feiras"
+            app:destination="@id/nav_feiras" />
+        <action
+            android:id="@+id/action_oportunidades_to_olimpiadas"
+            app:destination="@id/nav_olimpiadas" />
+        <action
+            android:id="@+id/action_oportunidades_to_intercambio"
+            app:destination="@id/nav_intercambio" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_bolsas"
+        android:name="com.example.ifrs_campusrolante.ui.oportunidades.bolsasFragment"
+        android:label="@string/bolsas" />
+    <fragment
+        android:id="@+id/nav_esportes"
+        android:name="com.example.ifrs_campusrolante.ui.oportunidades.esportesFragment"
+        android:label="@string/esportes" />
+    <fragment
+        android:id="@+id/nav_visitas"
+        android:name="com.example.ifrs_campusrolante.ui.oportunidades.visitasFragment"
+        android:label="@string/visitas" />
+    <fragment
+        android:id="@+id/nav_feiras"
+        android:name="com.example.ifrs_campusrolante.ui.oportunidades.feirasFragment"
+        android:label="@string/feiras" />
+    <fragment
+        android:id="@+id/nav_olimpiadas"
+        android:name="com.example.ifrs_campusrolante.ui.oportunidades.olimpiadasFragment"
+        android:label="@string/olimpiadas" />
+    <fragment
+        android:id="@+id/nav_intercambio"
+        android:name="com.example.ifrs_campusrolante.ui.oportunidades.intercambioFragment"
+        android:label="@string/intercambio" />
+
+    <fragment
+        android:id="@+id/nav_nucleos"
+        android:name="com.example.ifrs_campusrolante.ui.nucleos.nucleosFragment"
+        android:label="@string/nucleos"
+        tools:layout="@layout/fragment_nucleos" >
+        <action
+            android:id="@+id/action_nucleos_to_numen"
+            app:destination="@id/nav_numen" />
+        <action
+            android:id="@+id/action_nucleos_to_napne"
+            app:destination="@id/nav_napne"
+            />
+        <action
+            android:id="@+id/action_nucleos_to_nepgs"
+            app:destination="@id/nav_nepgs"
+            />
+        <action
+            android:id="@+id/action_nucleos_to_neabi"
+            app:destination="@id/nav_neabi"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_numen"
+        android:name="com.example.ifrs_campusrolante.ui.nucleos.numenFragment"
+        android:label="@string/numen" />
+    <fragment
+        android:id="@+id/nav_napne"
+        android:name="com.example.ifrs_campusrolante.ui.nucleos.napneFragment"
+        android:label="@string/napne" />
+    <fragment
+        android:id="@+id/nav_nepgs"
+        android:name="com.example.ifrs_campusrolante.ui.nucleos.nepgsFragment"
+        android:label="@string/nepgs" />
+    <fragment
+        android:id="@+id/nav_neabi"
+        android:name="com.example.ifrs_campusrolante.ui.nucleos.neabiFragment"
+        android:label="@string/neabi" />
+
+
+    <fragment
+        android:id="@+id/nav_transporte"
+        android:name="com.example.ifrs_campusrolante.ui.transporte.transporteFragment"
+        android:label="@string/menu_transporte"
+        tools:layout="@layout/fragment_transporte" />
+    <fragment
+        android:id="@+id/nav_desenvolvedoras"
+        android:name="com.example.ifrs_campusrolante.ui.desenvolvedoras.desenvolvedorasFragment"
+        android:label="@string/dev"
+        tools:layout="@layout/fragment_desenvolvedoras" />
+    <fragment
+        android:id="@+id/nav_redes"
+        android:name="com.example.ifrs_campusrolante.ui.redes.redesFragment"
+        android:label="@string/redes"
+        tools:layout="@layout/fragment_redes" />
+    <fragment
+        android:id="@+id/nav_rolante"
+        android:name="com.example.ifrs_campusrolante.ui.rolante.rolanteFragment"
+        android:label="@string/campusrolante"
+        tools:layout="@layout/fragment_rolante" />
+
+
+</navigation>
