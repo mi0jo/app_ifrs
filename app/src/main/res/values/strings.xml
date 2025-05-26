@@ -35,4 +35,9 @@
     <string name="nepgs">NEPGS</string>
     <string name="napne">NAPNE</string>
     <string name="neabi">NEABI</string>
+
+    <string name="descricao_campus">Foto do IFRS Campus Rolante</string>
+    <string name="history_campus">O IFRS - Campus Rolante foi fundado em... (aqui o texto da história)</string>
+    <string name="location_campus">Localizado na Rua Tal, nº XX, na cidade de Rolante, RS.</string>
+
 </resources>
