@@ -16,57 +16,60 @@
             android:orientation="vertical">
 
             <!-- Imagem de fundo -->
+
+            <!-- Camada de sombra preta semi-transparente -->
             <ImageView
                 android:id="@+id/imageBackground"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/campus_photo"
+                android:layout_height="192dp"
+                android:alpha="0.6"
                 android:contentDescription="@string/descricao_campus"
-                android:alpha="0.6" />
+                android:scaleType="centerCrop"
+                android:src="@drawable/campus_photo" />
 
-            <!-- Camada de sombra preta semi-transparente -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:background="#80000000" />
 
             <!-- Texto por cima da imagem -->
+
+            <!-- Texto localização embaixo -->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="434dp"
+                android:gravity="center_vertical"
                 android:orientation="vertical"
-                android:padding="16dp"
-                android:gravity="center_vertical">
+                android:padding="16dp">
 
                 <TextView
                     android:id="@+id/titleCampus"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="271dp"
+                    android:layout_height="25dp"
                     android:text="IFRS - Campus Rolante"
                     android:textColor="#FFFFFF"
-                    android:textSize="28sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textHistory"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:text="@string/history_campus"
+                    android:textAlignment="inherit"
                     android:textColor="#DDDDDD"
-                    android:textSize="16sp"
-                    android:layout_marginTop="8dp" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
-            <!-- Texto localização embaixo -->
             <TextView
                 android:id="@+id/textLocation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
                 android:text="@string/location_campus"
-                android:textSize="16sp"
                 android:textColor="#444444"
-                android:layout_marginTop="16dp" />
+                android:textSize="14sp" />
 
         </LinearLayout>
     </ScrollView>
