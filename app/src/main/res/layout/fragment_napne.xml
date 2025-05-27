@@ -10,7 +10,6 @@
         android:gravity="center_horizontal"
         android:background="?android:attr/windowBackground">
 
-        <!-- NUMEM -->
 
         <ImageView
             android:id="@+id/logo_numem"
@@ -18,7 +17,7 @@
             android:layout_height="125dp"
             android:layout_marginBottom="2dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/logonumemhorizontal" />
+            android:src="@drawable/napnelogo" />
 
         <TextView
             android:id="@+id/titulo_numem"
@@ -37,6 +36,7 @@
             android:layout_height="wrap_content"
             android:textColor="?android:attr/textColorPrimary"
             android:textSize="15sp"
+            android:justificationMode="inter_word"
             android:lineSpacingExtra="6dp"
             android:text="@string/desnapne"
             android:layout_marginBottom="6dp" />
@@ -69,7 +69,6 @@
             android:src="@drawable/campusgentef"
             android:scaleType="fitCenter" />
 
-        <!-- NAPNE -->
 
 
     </LinearLayout>

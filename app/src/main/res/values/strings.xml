@@ -31,7 +31,7 @@
     <string name="olimpiadas">Olimpíadas de conhecimento</string>
     <string name="intercambio">Intercâmbio</string>
     <string name="admpreja">Administração EJA EPT</string>
-    <string name="numen">NuMen</string>
+    <string name="numen">NuMem</string>
     <string name="nepgs">NEPGS</string>
     <string name="napne">NAPNE</string>
     <string name="neabi">NEABI</string>
@@ -75,6 +75,10 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="desnapne"> Os NAPNEs são facilitadores e disseminadores de ações inclusivas, buscando não apenas a inclusão de alunos com necessidades educacionais específicas nos bancos escolares, mas, também, sua permanência e saída exitosa para o mundo do trabalho, atuando no ensino, na pesquisa e na extensão.
 </string>
 
-
+    <string name="pesquisa"> Pesquisa</string>
+    <string name="ensino">Ensino</string>
+    <string name="extensao">Extensão</string>
+    <string name="indissociaveis"> Indissociáveis</string>
+    <string name="bolsas"> Indissociáveis</string>
 
 </resources>

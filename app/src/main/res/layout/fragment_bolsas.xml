@@ -1,14 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.oportunidades.bolsasFragment">
+    android:layout_height="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!-- Imagem de fundo -->
+    <ImageView
+        android:id="@+id/backgroundImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/pessoasestudando" />
 
+    <!-- Camada para conteúdo com fundo escuro semi-transparente -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="60dp"
+            android:gravity="center"
+            android:background="#80000000"> <!-- Fundo escuro semi-transparente -->
+
+            <!-- Texto acima dos botões -->
+
+            <!-- Botões -->
+
+            <TextView
+                android:id="@+id/texto_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/nucleosif"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_numen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pesquisa"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
+            <Button
+                android:id="@+id/btn_nepgs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/extensao"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
+            <Button
+                android:id="@+id/btn_napne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ensino"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
+            <Button
+                android:id="@+id/btn_neabi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/indissociaveis"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>
