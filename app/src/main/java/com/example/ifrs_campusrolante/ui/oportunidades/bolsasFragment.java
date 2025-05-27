@@ -3,6 +3,7 @@ package com.example.ifrs_campusrolante.ui.oportunidades;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,7 +27,20 @@ public class bolsasFragment extends Fragment {
                              Bundle savedInstanceState) {
         binding = FragmentBolsasBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bolsas, container, false);
+
+        binding.btnPesquisa.setOnClickListener(v ->
+                Navigation.findNavController(v).navigate(R.id.action_bolsas_to_pesquisa)
+        );
+        binding.btnEnsino.setOnClickListener(v ->
+                Navigation.findNavController(v).navigate(R.id.action_bolsas_to_ensino)
+        );
+        binding.btnExtensao.setOnClickListener(v ->
+                Navigation.findNavController(v).navigate(R.id.action_bolsas_to_extensao)
+        );
+        binding.btnIndissociaveis.setOnClickListener(v ->
+                Navigation.findNavController(v).navigate(R.id.action_bolsas_to_indissociaveis)
+        );
+        return root;
     }
+
 }

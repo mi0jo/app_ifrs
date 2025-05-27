@@ -41,7 +41,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_numen"
+                android:id="@+id/btn_pesquisa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/pesquisa"
@@ -50,7 +50,7 @@
                 android:background="@drawable/btn_gradient" />
 
             <Button
-                android:id="@+id/btn_nepgs"
+                android:id="@+id/btn_extensao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/extensao"
@@ -59,7 +59,7 @@
                 android:background="@drawable/btn_gradient" />
 
             <Button
-                android:id="@+id/btn_napne"
+                android:id="@+id/btn_ensino"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ensino"
@@ -68,7 +68,7 @@
                 android:background="@drawable/btn_gradient" />
 
             <Button
-                android:id="@+id/btn_neabi"
+                android:id="@+id/btn_indissociaveis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/indissociaveis"

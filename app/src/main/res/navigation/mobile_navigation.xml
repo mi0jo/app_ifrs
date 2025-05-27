@@ -97,7 +97,40 @@
     <fragment
         android:id="@+id/nav_bolsas"
         android:name="com.example.ifrs_campusrolante.ui.oportunidades.bolsasFragment"
-        android:label="@string/bolsas" />
+        android:label="@string/bolsas" >
+        <action
+            android:id="@+id/action_bolsas_to_pesquisa"
+            app:destination="@id/nav_pesquisa"
+            />
+         <action
+        android:id="@+id/action_bolsas_to_extensao"
+        app:destination="@id/nav_extensao"
+        />
+    <action
+        android:id="@+id/action_bolsas_to_ensino"
+        app:destination="@id/nav_ensino"
+        />
+    <action
+        android:id="@+id/action_bolsas_to_indissociaveis"
+        app:destination="@id/nav_indissociaveis"
+        />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_pesquisa"
+        android:name="com.example.ifrs_campusrolante.ui.bolsas.pesquisaFragment"
+        android:label="@string/pesquisa" />
+    <fragment
+        android:id="@+id/nav_extensao"
+        android:name="com.example.ifrs_campusrolante.ui.bolsas.extensaoFragment"
+        android:label="@string/extensao" />
+    <fragment
+        android:id="@+id/nav_ensino"
+        android:name="com.example.ifrs_campusrolante.ui.bolsas.ensinoFragment"
+        android:label="@string/ensino" />
+    <fragment
+        android:id="@+id/nav_indissociaveis"
+        android:name="com.example.ifrs_campusrolante.ui.bolsas.indissociaveisFragment"
+        android:label="@string/indissociaveis" />
     <fragment
         android:id="@+id/nav_esportes"
         android:name="com.example.ifrs_campusrolante.ui.oportunidades.esportesFragment"
