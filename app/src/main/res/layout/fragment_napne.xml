@@ -1,14 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.nucleos.napneFragment">
+    android:layout_height="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="9dp"
+        android:gravity="center_horizontal"
+        android:background="?android:attr/windowBackground">
 
-</FrameLayout>
+        <!-- NUMEM -->
+
+        <ImageView
+            android:id="@+id/logo_numem"
+            android:layout_width="160dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logonumemhorizontal" />
+
+        <TextView
+            android:id="@+id/titulo_numem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pessoascomnecessidades"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/descricao_numem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="15sp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/desnapne"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/contato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contatonapne"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="14sp"
+            android:autoLink="email"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/instagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instanapne"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="14sp"
+            android:autoLink="web"
+            android:layout_marginBottom="14dp" />
+
+        <ImageView
+            android:id="@+id/campusfoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/campusgentef"
+            android:scaleType="fitCenter" />
+
+        <!-- NAPNE -->
+
+
+    </LinearLayout>
+</ScrollView>

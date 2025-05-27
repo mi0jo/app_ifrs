@@ -47,18 +47,33 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="location_campus">Rodovia RS-239, Km 68, Nº 3505 (Estrada Taquara/Rolante) | CEP: 95690-000 | Rolante/RS Caixa Postal 118 (correspondência) | Telefone: (51) 3547-9600</string>
     <string name="nucleosif">Os núcleos do IFRS, presentes em campi como o de Rolante, são espaços de apoio e coordenação dedicados a áreas específicas, como educação a distância, arte e cultura, estudos afro-brasileiros e indígenas, gênero e sexualidade, entre outras. Com atuação integrada ao ensino, à pesquisa, à extensão e às ações afirmativas, eles fortalecem a formação de profissionais e promovem a inclusão e a valorização da diversidade na comunidade acadêmica.</string>
 
-    <string name="sexualidade">Núcleo de Estudo e Pesquisa em Gênero e Sexualidade (NEPGS) </string>
-    <string name="pessoascomnecessidades">Núcleo de Atendimento às Pessoas com Necessidades Educacionais Específicas (NAPNE)
- </string>
-    <string name="afro"> Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI)</string>
-    <string name="nucleodememorias">Núcleo de Memória (NuMen) </string>
+
+    <string name="nucleodememorias">Núcleo de Memória (NuMem) </string>
     <string name="memorias">O Núcleo de Memória (NuMem) do Campus Rolante tem por objetivo atuar na preservação da memória institucional do campus. É vinculado ao Núcleo de Memória do IFRS – programa institucional, de caráter interdisciplinar e multicampi que visa a consolidação da memória e da identidade da instituição, por meio do resgate e da socialização da história da IFRS, seja ela anterior a sua criação ou posterior a ela.
  </string>
-
+    <string name="instanumen"> Instagram: @numemifrs_oficial</string>
     <string name="contatonumen">Contato: numem@rolante.ifrs.edu.br</string>
     <string name="sitenumen">Site: https://memoria.ifrs.edu.br</string>
     <string name="linhadotempo">Linha do tempo Campus Rolante: https://memoria.ifrs.edu.br/timeline/unidade/campus-rolante/</string>
-    <string name="instanumen"> Instagram: @numemifrs_oficial</string>
+
+    <string name="sexualidade">Núcleo de Estudo e Pesquisa em Gênero e Sexualidade (NEPGS) </string>
+    <string name="intanepgs"> Instagram: @nepgs_rolante_ifrs</string>
+    <string name="descrinepgs"> O NEPGS é um espaço voltado à discussão da igualdade de gênero. Também temos como objetivos o respeito à diversidade sexual e a implementação de ações afirmativas e inclusivas. Nosso objetivo é promover a informação e incentivar o debate sadio. Prezamos também pela democratização no interior dos núcleos, buscando a parceria com entidades, coletivos, instituições, bem como a participação de pessoas físicas interessadas em conhecer, debater e propor ações que construam uma sociedade igualitária, justa e sem preconceitos.
+</string>
+    <string name="contatonepgs"> Contato: nepgs@rolante.ifrs.edu.br</string>
+
+    <string name="afro"> Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI)</string>
+    <string name="instaneabi"> Instagram: @neabifrsrolante, @gepea.ifrs</string>
+    <string name="desneabi"> É um espaço cujo propósito é estudar e debater as relações étnico-raciais na sociedade brasileira, em especial no Campus Rolante. Busca fomentar estudo, pesquisa e extensão a partir do desenvolvimento de programas e projetos em diversas áreas do conhecimento.</string>
+    <string name="contatoneabi"> Contato: neabi@rolante.ifrs.edu.br</string>
+
+
+    <string name="pessoascomnecessidades">Núcleo de Atendimento às Pessoas com Necessidades Educacionais Específicas (NAPNE)
+ </string>
+    <string name="instanapne"> Instagram: @napne_rolante</string>
+    <string name="contatonapne"> Contato: napne@rolante.ifrs.edu.br</string>
+    <string name="desnapne"> Os NAPNEs são facilitadores e disseminadores de ações inclusivas, buscando não apenas a inclusão de alunos com necessidades educacionais específicas nos bancos escolares, mas, também, sua permanência e saída exitosa para o mundo do trabalho, atuando no ensino, na pesquisa e na extensão.
+</string>
 
 
 
