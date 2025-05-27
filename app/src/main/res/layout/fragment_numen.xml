@@ -1,14 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.nucleos.numenFragment">
+    android:layout_height="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:background="?attr/colorSurfaceVariant"
+        android:gravity="center">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/logo_numem"
+            android:layout_width="160dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/numen" />
+
+        <TextView
+            android:id="@+id/titulo_numem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nucleodememorias"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/descricao_numem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="15sp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/memorias"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/contato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contatonumen"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="14sp"
+            android:autoLink="email"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sitenumen"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="14sp"
+            android:autoLink="web"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/linha_do_tempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/linhadotempo"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="14sp"
+            android:autoLink="web"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/instagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instanumen"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="14sp"
+            android:layout_marginBottom="14dp" />
+
+        <ImageView
+            android:id="@+id/campusfoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/campusgentef"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+</ScrollView>
+
+
+

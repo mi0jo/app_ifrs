@@ -37,13 +37,29 @@
     <string name="neabi">NEABI</string>
 
     <string name="descricao_campus">Foto do IFRS Campus Rolante</string>
-    <string name="history_campus">O Campus Rolante iniciou sua história em 2015 e, já em 2016, abriu as portas com os primeiros cursos técnicos de Administração, Agropecuária e Qualidade. No ano seguinte, chegaram os cursos integrados ao Ensino Médio, incluindo o PROEJA.
+    <string name="history_campus">      O Campus Rolante iniciou sua história em 2015 e, já em 2016, abriu as portas com os primeiros cursos técnicos de Administração, Agropecuária e Qualidade. No ano seguinte, chegaram os cursos integrados ao Ensino Médio, incluindo o PROEJA.
 
-Em 2017, o campus se mudou pra sede própria: um espaço de 57 hectares, com prédio moderno, 10 salas de aula e laboratórios. Hoje, mais de 480 alunos estudam lá, em cursos técnicos, integrados e de extensão — manhã, tarde e noite.
+Em 2017, o campus se mudou pra sede própria: um espaço de 57 hectares, com prédio moderno, 10 salas de aula e laboratórios. Hoje, a instituição possui  mais de 480 estudantes, em cursos técnicos, integrados e de extensão — manhã, tarde e noite.
 
-Com foco em formar profissionais preparados para o mercado, o campus atua nos eixos de Gestão e Negócios, TI e Recursos Naturais, definidos junto à comunidade local.
+Com foco em formar profissionais preparados para o mercado, o campus atua nos eixos de Gestão de Negócios, TI e Recursos Naturais, definidos junto à comunidade local.
 
 Ah, e um detalhe importante: o Campus Rolante é a única instituição pública federal de educação profissional do Vale do Paranhana, região com cerca de 200 mil pessoas.</string>
     <string name="location_campus">Rodovia RS-239, Km 68, Nº 3505 (Estrada Taquara/Rolante) | CEP: 95690-000 | Rolante/RS Caixa Postal 118 (correspondência) | Telefone: (51) 3547-9600</string>
+    <string name="nucleosif">Os núcleos do IFRS, presentes em campi como o de Rolante, são espaços de apoio e coordenação dedicados a áreas específicas, como educação a distância, arte e cultura, estudos afro-brasileiros e indígenas, gênero e sexualidade, entre outras. Com atuação integrada ao ensino, à pesquisa, à extensão e às ações afirmativas, eles fortalecem a formação de profissionais e promovem a inclusão e a valorização da diversidade na comunidade acadêmica.</string>
+
+    <string name="sexualidade">Núcleo de Estudo e Pesquisa em Gênero e Sexualidade (NEPGS) </string>
+    <string name="pessoascomnecessidades">Núcleo de Atendimento às Pessoas com Necessidades Educacionais Específicas (NAPNE)
+ </string>
+    <string name="afro"> Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI)</string>
+    <string name="nucleodememorias">Núcleo de Memória (NuMen) </string>
+    <string name="memorias">O Núcleo de Memória (NuMem) do Campus Rolante tem por objetivo atuar na preservação da memória institucional do campus. É vinculado ao Núcleo de Memória do IFRS – programa institucional, de caráter interdisciplinar e multicampi que visa a consolidação da memória e da identidade da instituição, por meio do resgate e da socialização da história da IFRS, seja ela anterior a sua criação ou posterior a ela.
+ </string>
+
+    <string name="contatonumen">Contato: numem@rolante.ifrs.edu.br</string>
+    <string name="sitenumen">Site: https://memoria.ifrs.edu.br</string>
+    <string name="linhadotempo">Linha do tempo Campus Rolante: https://memoria.ifrs.edu.br/timeline/unidade/campus-rolante/</string>
+    <string name="instanumen"> Instagram: @numemifrs_oficial</string>
+
+
 
 </resources>
