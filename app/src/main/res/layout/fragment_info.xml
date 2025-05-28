@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.cursos.infoFragment">
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/logo_info"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_info"
+            android:contentDescription="Logo do curso de Informática"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/titulo_curso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curso Técnico em Informática"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/descricao_curso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Se você curte tecnologia, o Técnico em Informática é pra você! Além do ensino médio, você aprende a programar, criar sistemas, testar, documentar e dar aquele suporte técnico que salva o dia. Vai mexer com linguagens de programação, bancos de dados e sistemas operacionais, tudo pra atuar em empresas de todos os tamanhos, com soluções criativas e práticas. É o curso que te prepara pro mundo digital com atitude e inovação!"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:lineSpacingExtra="6dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="16dp" />
+
+
+
+        <TextView
+            android:id="@+id/sobre_o_curso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Modalidade: presencial\n• Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso: Fábio Zschornack\n• E-mail: informatica@rolante.ifrs.edu.br"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:lineSpacingExtra="4dp"
+            android:justificationMode="inter_word" />
+
+    </LinearLayout>
+</ScrollView>
