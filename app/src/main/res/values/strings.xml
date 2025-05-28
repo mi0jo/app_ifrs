@@ -79,6 +79,7 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="ensino">Ensino</string>
     <string name="extensao">Extensão</string>
     <string name="indissociaveis"> Indissociáveis</string>
-    <string name="bolsasdes"> Indissociáveis</string>
+    <string name="bolsasdes">O IF oferece diversas oportunidades de bolsas de iniciação científica, divididas nas modalidades de Ensino, Extensão, Pesquisa e Indissociáveis. Essas bolsas permitem que os estudantes participem de projetos coordenados por servidores do instituto, recebendo um valor mensal de acordo com a carga horária semanal dedicada às atividades. Os valores são proporcionais ao tempo de dedicação: R\$175,00 para 4 horas semanais, R\$350,00 para 8 horas, R\$525,00 para 12 horas e R\$700,00 para 16 horas semanais. Aqueles que não forem contemplados com as bolsas podem participar como voluntários.
+</string>
 
 </resources>
