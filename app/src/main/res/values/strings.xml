@@ -104,4 +104,10 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="desindissociaveis">Os projetos Indissociáveis envolvem, de forma integrada, ações de Ensino, Pesquisa e Extensão. Essa modalidade promove uma formação mais completa, permitindo que os estudantes atuem em atividades que articulam a produção de conhecimento, o aprendizado em sala de aula e a aplicação prática junto à comunidade, ampliando o impacto e o alcance das ações desenvolvidas no IF.</string>
 
     <string name="despesquisa">Os projetos de Pesquisa têm como objetivo a produção de conhecimento científico a partir da investigação de problemas e temas relevantes em diversas áreas. Voltados tanto para a comunidade interna quanto externa, esses projetos estimulam o pensamento crítico, a curiosidade e o desenvolvimento de habilidades investigativas, aproximando os estudantes do universo acadêmico e da ciência.</string>
+
+    <string name="esportivas"> Oportunidades esportivas</string>
+    <string name="desesporte"> Oportunidades esportivas</string>
+
+
+
 </resources>
