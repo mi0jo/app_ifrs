@@ -76,15 +76,21 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
 </string>
 
     <string name="pesquisa"> Pesquisa</string>
+    <string name="pesquisab"> Bolsas de Pesquisa</string>
     <string name="ensino">Ensino</string>
+    <string name="ensinob"> Bolsas de Ensino</string>
+
     <string name="extensao">Extensão</string>
+    <string name="extensaob"> Bolsas de Extensão</string>
+    <string name="indissociaveisb"> Bolsas Indissociáveis</string>
+
     <string name="indissociaveis"> Indissociáveis</string>
     <string name="bolsasdes">O IF oferece diversas oportunidades de bolsas de iniciação científica, divididas nas modalidades de Ensino, Extensão, Pesquisa e Indissociáveis. Essas bolsas permitem que os estudantes participem de projetos coordenados por servidores do instituto, recebendo um valor mensal de acordo com a carga horária semanal dedicada às atividades. Os valores são proporcionais ao tempo de dedicação: R\$175,00 para 4 horas semanais, R\$350,00 para 8 horas, R\$525,00 para 12 horas e R\$700,00 para 16 horas semanais. Aqueles que não forem contemplados com as bolsas podem participar como voluntários.
 </string>
 
     <string name="desensino"> Os projetos de Ensino são voltados principalmente para a comunidade interna do campus e têm como objetivo fortalecer os processos de aprendizagem e apoio pedagógico. Dentro dessa modalidade, destaca-se a monitoria, em que estudantes auxiliam colegas em disciplinas específicas, contribuindo para a melhoria do desempenho acadêmico e o fortalecimento da troca de conhecimentos.
 </string>
-    <string name="instaensino"> A seguir alguns projetos de ensino que atuam na nossa instituição: @englishclub_ifrs_rolante, @bovinocultura.ifrs, @clube_astronomia_rolante - monitoria
+    <string name="instaensino"> A seguir alguns projetos de ensino que atuam na nossa instituição: @englishclub_ifrs_rolante, @bovinocultura.ifrs, @clube_astronomia_rolante
 </string>
     <string name="instapesquisa"> A seguir o insta de um projeto de pesquisa que atua no Campus Rolante: @batimetria_ifrs
 </string>

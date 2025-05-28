@@ -10,12 +10,23 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/titulo_numem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/pesquisab"
+            android:textAlignment="center"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <!-- Texto 1 -->
         <TextView
             android:id="@+id/texto_bolsas_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
             android:text="@string/despesquisa"
             android:textSize="16sp"
             android:lineSpacingExtra="6dp"
@@ -30,22 +41,22 @@
             android:id="@+id/texto_bolsas_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+
             android:text="@string/instapesquisa"
             android:textSize="16sp"
             android:lineSpacingExtra="6dp"
             android:textColor="?android:attr/textColorPrimary"
             android:layout_marginBottom="16dp" />
 
+
         <ImageView
             android:id="@+id/imagem_bolsa_1"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/batimetria"
-            android:layout_marginBottom="24dp" />
-
-        <!-- Segunda imagem -->
-
+            android:layout_width="281dp"
+            android:layout_height="334dp"
+            android:layout_marginBottom="24dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/batimetria" />
 
     </LinearLayout>
 </ScrollView>
