@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.cursos.admFragment">
+    android:padding="16dp"
+    android:background="?android:colorBackground">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/logo_adm"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_adm"
+            android:contentDescription="Logo do curso de Administração"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/titulo_curso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curso Técnico em Administração"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/descricao_curso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O curso Técnico em Administração do IFRS – Campus Rolante prepara você com uma base sólida tanto nas disciplinas do ensino médio quanto nos conhecimentos da área administrativa. Ao longo da formação, você vai estudar português, matemática, ciências e filosofia, além de aprender sobre gestão de pessoas, finanças e processos organizacionais.
+
+Ao final do curso, estará pronto para o mercado de trabalho ou para continuar os estudos, com flexibilidade, visão crítica e capacidade de se adaptar a diferentes situações – dentro e fora das empresas."
+            android:textSize="16sp"
+            android:textColor="?android:textColorPrimary"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="16dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:id="@+id/sobre_o_curso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Modalidade: presencial\n• Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso: Carlos Alberto Steinmetz\n• E-mail: administracao@rolante.ifrs.edu.br"
+            android:textSize="16sp"
+            android:textColor="?android:textColorPrimary"
+            android:lineSpacingExtra="4dp"
+            android:justificationMode="inter_word" />
+
+    </LinearLayout>
+</ScrollView>
