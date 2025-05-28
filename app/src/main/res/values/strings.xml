@@ -82,4 +82,20 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="bolsasdes">O IF oferece diversas oportunidades de bolsas de iniciação científica, divididas nas modalidades de Ensino, Extensão, Pesquisa e Indissociáveis. Essas bolsas permitem que os estudantes participem de projetos coordenados por servidores do instituto, recebendo um valor mensal de acordo com a carga horária semanal dedicada às atividades. Os valores são proporcionais ao tempo de dedicação: R\$175,00 para 4 horas semanais, R\$350,00 para 8 horas, R\$525,00 para 12 horas e R\$700,00 para 16 horas semanais. Aqueles que não forem contemplados com as bolsas podem participar como voluntários.
 </string>
 
+    <string name="desensino"> Os projetos de Ensino são voltados principalmente para a comunidade interna do campus e têm como objetivo fortalecer os processos de aprendizagem e apoio pedagógico. Dentro dessa modalidade, destaca-se a monitoria, em que estudantes auxiliam colegas em disciplinas específicas, contribuindo para a melhoria do desempenho acadêmico e o fortalecimento da troca de conhecimentos.
+</string>
+    <string name="instaensino"> A seguir alguns projetos de ensino que atuam na nossa instituição: @englishclub_ifrs_rolante, @bovinocultura.ifrs, @clube_astronomia_rolante - monitoria
+</string>
+    <string name="instapesquisa"> A seguir o insta de um projeto de pesquisa que atua no Campus Rolante: @batimetria_ifrs
+</string>
+    <string name="instaextensao"> A seguir alguns projetos de extensão que atuam no Campus Rolante: @ciencia_itinerante_ifrsrolante, @horah_rolante_ifrs, @inspirando_gurias
+</string>
+
+    <string name="instaindissociaveis"> A seguir o insta de um projeto indissociável que atua no Campus Rolante:  @fortalecendo.a_sabedoria</string>
+
+    <string name="desextensao"> Os projetos de Extensão têm como foco principal a interação entre o IF e a comunidade externa, promovendo a troca de saberes e contribuindo para o desenvolvimento social, cultural e tecnológico da região. Essas ações buscam levar o conhecimento produzido no campus para além de seus muros, fortalecendo o vínculo com a sociedade e promovendo a cidadania.
+</string>
+    <string name="desindissociaveis">Os projetos Indissociáveis envolvem, de forma integrada, ações de Ensino, Pesquisa e Extensão. Essa modalidade promove uma formação mais completa, permitindo que os estudantes atuem em atividades que articulam a produção de conhecimento, o aprendizado em sala de aula e a aplicação prática junto à comunidade, ampliando o impacto e o alcance das ações desenvolvidas no IF.</string>
+
+    <string name="despesquisa">Os projetos de Pesquisa têm como objetivo a produção de conhecimento científico a partir da investigação de problemas e temas relevantes em diversas áreas. Voltados tanto para a comunidade interna quanto externa, esses projetos estimulam o pensamento crítico, a curiosidade e o desenvolvimento de habilidades investigativas, aproximando os estudantes do universo acadêmico e da ciência.</string>
 </resources>

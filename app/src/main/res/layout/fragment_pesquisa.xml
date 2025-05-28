@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.bolsas.pesquisaFragment">
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-</FrameLayout>
+        <!-- Texto 1 -->
+        <TextView
+            android:id="@+id/texto_bolsas_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/despesquisa"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Primeira imagem -->
+
+
+        <!-- Texto 2 -->
+        <TextView
+            android:id="@+id/texto_bolsas_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instapesquisa"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/imagem_bolsa_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/batimetria"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Segunda imagem -->
+
+
+    </LinearLayout>
+</ScrollView>
+
