@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:justificationMode="inter_word"
-            android:text="@string/desextensao"
+            android:text="@string/desesporte"
             android:textSize="16sp"
             android:lineSpacingExtra="6dp"
             android:textColor="?android:attr/textColorPrimary"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:justificationMode="inter_word"
 
-            android:text="@string/instaextensao"
+            android:text="@string/dessporte"
             android:textSize="16sp"
             android:lineSpacingExtra="6dp"
             android:textColor="?android:attr/textColorPrimary"
@@ -64,7 +64,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="8dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/horah" />
+                android:src="@drawable/handebolmedalha" />
 
             <ImageView
                 android:id="@+id/imagem2"
@@ -73,18 +73,18 @@
                 android:layout_weight="1"
                 android:layout_marginStart="8dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/inspirandogurias" />
+                android:src="@drawable/medalhajogosmunicipais" />
 
         </LinearLayout>
 
 
         <ImageView
             android:id="@+id/imagem_bolsa_1"
-            android:layout_width="329dp"
-            android:layout_height="164dp"
+            android:layout_width="334dp"
+            android:layout_height="147dp"
             android:layout_marginBottom="24dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/cienciaitinerante" />
+            android:src="@drawable/delegacoes" />
 
 
 

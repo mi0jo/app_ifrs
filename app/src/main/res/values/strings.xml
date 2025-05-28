@@ -106,7 +106,10 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="despesquisa">Os projetos de Pesquisa têm como objetivo a produção de conhecimento científico a partir da investigação de problemas e temas relevantes em diversas áreas. Voltados tanto para a comunidade interna quanto externa, esses projetos estimulam o pensamento crítico, a curiosidade e o desenvolvimento de habilidades investigativas, aproximando os estudantes do universo acadêmico e da ciência.</string>
 
     <string name="esportivas"> Oportunidades esportivas</string>
-    <string name="desesporte"> Oportunidades esportivas</string>
+    <string name="desesporte">    O Campus Rolante oferece aos estudantes diversas oportunidades de treinos esportivos em modalidades como vôlei, handebol, tênis de mesa, futsal, basquete, vôlei de praia, xadrez e atletismo. Os alunos que participam dos treinos têm a chance de integrar o time oficial do campus, representando a instituição em competições como os Jogos do IF — que reúnem estudantes de vários institutos federais — e também em campeonatos municipais em Rolante.
+ </string>
+    <string name="dessporte">O campus tem se destacado em diversas modalidades, especialmente no handebol, onde já conquistou o terceiro lugar nos Jogos do IF, além de bons resultados no tênis de mesa, vôlei, atletismo, entre outras.
+</string>
 
 
 
