@@ -49,45 +49,14 @@
             android:textColor="?android:attr/textColorPrimary"
             android:layout_marginBottom="16dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginBottom="24dp">
-
-            <ImageView
-                android:id="@+id/imagem1"
-                android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_weight="1"
-                android:layout_marginEnd="8dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/bovinocultura" />
-
-            <ImageView
-                android:id="@+id/imagem2"
-                android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_weight="1"
-                android:layout_marginStart="8dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/clubeastronomia" />
-
-        </LinearLayout>
-
-
-
         <ImageView
-            android:id="@+id/imagem_bolsa_1"
-            android:layout_width="362dp"
-            android:layout_height="160dp"
-            android:layout_marginBottom="24dp"
+            android:id="@+id/imagem1"
+            android:layout_width="367dp"
+            android:layout_height="362dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:src="@drawable/englishclub" />
-
-
-        <!-- Segunda imagem -->
+            android:src="@drawable/projetosensino" />
 
 
     </LinearLayout>

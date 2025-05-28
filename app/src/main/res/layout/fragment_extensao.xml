@@ -50,45 +50,19 @@
             android:layout_marginBottom="16dp" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginBottom="24dp">
-
-            <ImageView
-                android:id="@+id/imagem1"
-                android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_weight="1"
-                android:layout_marginEnd="8dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/horah" />
-
-            <ImageView
-                android:id="@+id/imagem2"
-                android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_weight="1"
-                android:layout_marginStart="8dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/inspirandogurias" />
-
-        </LinearLayout>
-
-
         <ImageView
-            android:id="@+id/imagem_bolsa_1"
-            android:layout_width="329dp"
-            android:layout_height="164dp"
-            android:layout_marginBottom="24dp"
+            android:id="@+id/imagem1"
+            android:layout_width="379dp"
+            android:layout_height="248dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:src="@drawable/cienciaitinerante" />
+            android:src="@drawable/projetosextensao" />
 
 
 
-        <!-- Segunda imagem -->
+
+
 
 
     </LinearLayout>
