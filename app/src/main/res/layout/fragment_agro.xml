@@ -22,19 +22,21 @@
 
         <TextView
             android:id="@+id/titulo_curso"
-            android:layout_width="wrap_content"
+            android:layout_width="266dp"
             android:layout_height="wrap_content"
-            android:text="Curso Técnico em Agropecuária"
-            android:textSize="22sp"
-            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:text="@string/agrotitu"
+            android:textAlignment="center"
+
             android:textColor="?android:attr/textColorPrimary"
-            android:layout_marginBottom="12dp" />
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/descricao_curso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Se você curte o campo e quer transformar realidades, o Técnico em Agropecuária é pra você! Aqui, você vai aprender a cuidar da produção rural de forma criativa, sustentável e com os pés no chão. O curso te prepara para atuar com gestão, projetos agropecuários, sanidade animal e vegetal, topografia, fiscalização e muito mais. Tudo isso com foco em desenvolvimento rural, inovação e cooperação!"
+            android:text="@string/agrodes"
             android:textSize="16sp"
             android:textColor="?android:attr/textColorPrimary"
             android:lineSpacingExtra="6dp"
@@ -45,8 +47,8 @@
             android:id="@+id/sobre_o_curso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="• Modalidade: presencial\n• Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã); 35 (tarde)\n• Coordenação do curso: Josmael Corso\n• E-mail: agropecuaria@rolante.ifrs.edu.br"
             android:textSize="16sp"
+            android:text="@string/agroinfos"
             android:textColor="?android:attr/textColorPrimary"
             android:lineSpacingExtra="4dp"
             android:justificationMode="inter_word" />

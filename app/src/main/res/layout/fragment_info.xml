@@ -22,19 +22,21 @@
 
         <TextView
             android:id="@+id/titulo_curso"
-            android:layout_width="wrap_content"
+            android:layout_width="273dp"
             android:layout_height="wrap_content"
-            android:text="Curso Técnico em Informática"
-            android:textSize="22sp"
-            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:text="@string/infotitu"
+            android:textAlignment="center"
+
             android:textColor="?android:attr/textColorPrimary"
-            android:layout_marginBottom="12dp" />
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/descricao_curso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Se você curte tecnologia, o Técnico em Informática é pra você! Além do ensino médio, você aprende a programar, criar sistemas, testar, documentar e dar aquele suporte técnico que salva o dia. Vai mexer com linguagens de programação, bancos de dados e sistemas operacionais, tudo pra atuar em empresas de todos os tamanhos, com soluções criativas e práticas. É o curso que te prepara pro mundo digital com atitude e inovação!"
+            android:text="@string/infodes"
             android:textSize="16sp"
             android:textColor="?android:attr/textColorPrimary"
             android:lineSpacingExtra="6dp"
@@ -47,7 +49,8 @@
             android:id="@+id/sobre_o_curso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="• Modalidade: presencial\n• Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso: Fábio Zschornack\n• E-mail: informatica@rolante.ifrs.edu.br"
+            android:text="@string/infoinfos"
+
             android:textSize="16sp"
             android:textColor="?android:attr/textColorPrimary"
             android:lineSpacingExtra="4dp"

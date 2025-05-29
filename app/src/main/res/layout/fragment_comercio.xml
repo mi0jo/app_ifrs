@@ -1,14 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.cursos.comercioFragment">
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/logo_info"
+            android:layout_width="246dp"
+            android:layout_height="141dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Logo do curso de Informática"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logocomercio" />
+
+        <TextView
+            android:id="@+id/titulo_curso"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/comerciotitu"
+            android:textAlignment="center"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descricao_curso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/comerciodes"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:lineSpacingExtra="6dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="16dp" />
+
+
+
+        <TextView
+            android:id="@+id/sobre_o_curso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/comercioinfo"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:lineSpacingExtra="4dp"
+            android:justificationMode="inter_word" />
+
+    </LinearLayout>
+</ScrollView>

@@ -22,7 +22,7 @@
     <string name="info">Informática</string>
     <string name="ads">Analise e desenvolvimento de sistemas</string>
     <string name="tpg">Processos Gerenciais</string>
-    <string name="comercio">Comércio EJA</string>
+    <string name="comercio">Comércio - PROEJA</string>
     <string name="agro">Agropecuária</string>
     <string name="bolsas">Bolsas</string>
     <string name="esportes">Esportes</string>
@@ -30,7 +30,7 @@
     <string name="feiras">Feiras Científicas</string>
     <string name="olimpiadas">Olimpíadas de conhecimento</string>
     <string name="intercambio">Intercâmbio</string>
-    <string name="admpreja">Administração EJA EPT</string>
+    <string name="admpreja">Administração - EJA EPT</string>
     <string name="numen">NuMem</string>
     <string name="nepgs">NEPGS</string>
     <string name="napne">NAPNE</string>
@@ -110,17 +110,48 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
  </string>
     <string name="dessporte">O campus tem se destacado em diversas modalidades, especialmente no handebol, onde já conquistou o terceiro lugar nos Jogos do IF, além de bons resultados no tênis de mesa, vôlei, atletismo, entre outras.
 </string>
-    <string name="admtitulo">     Técnico em Administração integrado ao ensino médio</string>
+    <string name="admtitulo">     Técnico em Administração Integrado ao Ensino Médio</string>
     <string name="admdes"> O curso Técnico em Administração do IFRS – Campus Rolante prepara você com uma base sólida tanto nas disciplinas do ensino médio quanto nos conhecimentos da área administrativa. Ao longo da formação, você vai estudar português, matemática, ciências e filosofia, além de aprender sobre gestão de pessoas, finanças e processos organizacionais.
      Ao final do curso, estará pronto para o mercado de trabalho ou para continuar os estudos, com flexibilidade, visão crítica e capacidade de se adaptar a diferentes situações – dentro e fora das empresas.
 </string>
-    <string name="adminfos">• Modalidade: presencial \n•Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso: Carlos Alberto Steinmetz\n• E-mail: administracao@rolante.ifrs.edu.br
+    <string name="adminfos">• Modalidade: presencial \n• Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso: Carlos Alberto Steinmetz\n• E-mail: administracao@rolante.ifrs.edu.br
 </string>
 
+    <string name="agrotitu"> Técnico em Agropecuária Integrado ao Ensino Médio</string>
+    <string name="agrodes">Se você curte o campo e quer transformar realidades, o Técnico em Agropecuária é pra você! Aqui, você vai aprender a cuidar da produção rural de forma criativa, sustentável e com os pés no chão. O curso te prepara para atuar com gestão, projetos agropecuários, sanidade animal e vegetal, topografia, fiscalização e muito mais. Tudo isso com foco em desenvolvimento rural, inovação e cooperação!"</string>
+    <string name="agroinfos">• Modalidade: presencial \n• Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso: Josmael Corso\n• E-mail: agropecuaria@rolante.ifrs.edu.br
+</string>
 
+    <string name="infotitu"> Técnico em Informática Integrado ao Ensino Médio</string>
+    <string name="infodes">    Se você curte tecnologia, o Técnico em Informática é pra você! Além do ensino médio, você aprende a programar, criar sistemas, testar, documentar e dar aquele suporte técnico que salva o dia. Vai mexer com linguagens de programação, bancos de dados e sistemas operacionais, tudo pra atuar em empresas de todos os tamanhos, com soluções criativas e práticas. É o curso que te prepara pro mundo digital com atitude e inovação!
+ </string>
+    <string name="infoinfos">• Modalidade: presencial \n• Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso:  Fábio Zschornack\n• E-mail: informatica@rolante.ifrs.edu.br
+</string>
 
+    <string name="tpgtitu"> Tecnologia em Processos Gerenciais</string>
+    <string name="tpgdes"> O Tecnólogo em Processos Gerenciais é preparado para atuar em empresas públicas, privadas ou no seu próprio negócio, com foco em decisões estratégicas e visão empreendedora. O curso desenvolve habilidades em gestão de pessoas, finanças, marketing, logística e muito mais, sempre com base em princípios éticos e sustentáveis. Além disso, oferece uma ótima estrutura, com laboratórios, salas equipadas e acesso a bibliotecas físicas e virtuais que garantem uma formação conectada com a prática do mercado.
+</string>
+    <string name="tpginfo">• Modalidade: presencial \n • Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 35 \n• Coordenação do curso: Errol Fernando Zepka Pereira Júnior\n• E-mail: tpg@rolante.ifrs.edu.br \n Requisito: Ter concluido o Ensino médio
+</string>
 
+    <string name="adstitu"> Tecnologia em Análise e Desenvolvimento de Sistemas </string>
+    <string name="adsdes"> O curso de Análise e Desenvolvimento de Sistemas prepara profissionais para planejar, desenvolver, testar e manter sistemas de software que atendem às necessidades do mercado e da sociedade. Com uma formação que une teoria e prática, o estudante aprende a pensar de forma crítica e criativa, sempre com base em princípios éticos, humanos e sociais. A tecnologia aqui é vista como ferramenta para transformar realidades e melhorar a qualidade de vida das pessoas.
+</string>
+    <string name="adsinfo">• Modalidade: presencial \n • Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 35 \n• Coordenação do curso: Marco Antoni\n• E-mail: tads@rolante.ifrs.edu.br \n Requisito: Ter concluido o Ensino médio
+</string>
 
+    <string name="admejatitu">Técnico em Administração Integrado ao ensino médio - EJA EPT</string>
+    <string name="admejades">O Técnico em Administração forma profissionais com visão crítica, atitude empreendedora e preparados para encarar os desafios de um mercado em constante mudança. Isso envolve planejamento, organização, gestão de equipes e processos, além de cuidar de tudo que faz uma empresa funcionar bem, como pessoas, materiais e informações.
+</string>
+    <string name="admejainfo">• Modalidade: presencial \n • Duração do curso: 4 semestres (2 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 35 \n• Coordenação do curso: Sabrina Favaretto Antunes\n• E-mail: eja.adm@rolante.ifrs.edu.br \n Requisito: 18 anos ou mais
+</string>
+
+    <string name="comerciotitu">Técnico em Comércio Integrado ao Ensino médio - PROEJA </string>
+    <string name="comerciodes">O PROEJA é um programa que une ensino médio e formação técnica, pensado para jovens e adultos com mais de 18 anos. A proposta vai além da qualificação para o mercado: busca uma formação completa, que ajude a entender o mundo e atuar nele de forma crítica e transformadora.\n
+No IFRS, o curso técnico em Comércio pelo PROEJA prepara os estudantes para o mercado com uma base sólida em administração, contabilidade, finanças, marketing e vendas. Tudo isso com foco no empreendedorismo, cidadania e nas relações humanas, especialmente no atendimento e na negociação com clientes.
+</string>
+    <string name="comercioinfo">• Modalidade: presencial \n • Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 40 \n• Coordenação do curso: Sabrina Favaretto Antunes\n• E-mail: comercio@rolante.ifrs.edu.br \n Requisito: 18 anos ou mais
+</string>
 
 
 
