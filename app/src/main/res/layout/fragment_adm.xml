@@ -13,30 +13,28 @@
 
         <ImageView
             android:id="@+id/logo_adm"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/logo_adm"
-            android:contentDescription="Logo do curso de Administração"
+            android:layout_width="189dp"
+            android:layout_height="194dp"
             android:layout_marginBottom="16dp"
-            android:scaleType="fitCenter" />
+            android:contentDescription="Logo do curso de Administração"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_adm" />
 
         <TextView
             android:id="@+id/titulo_curso"
-            android:layout_width="wrap_content"
+            android:layout_width="265dp"
             android:layout_height="wrap_content"
-            android:text="Curso Técnico em Administração"
-            android:textSize="22sp"
-            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:text="@string/admtitulo"
             android:textColor="?android:textColorPrimary"
-            android:layout_marginBottom="12dp" />
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/descricao_curso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="O curso Técnico em Administração do IFRS – Campus Rolante prepara você com uma base sólida tanto nas disciplinas do ensino médio quanto nos conhecimentos da área administrativa. Ao longo da formação, você vai estudar português, matemática, ciências e filosofia, além de aprender sobre gestão de pessoas, finanças e processos organizacionais.
-
-Ao final do curso, estará pronto para o mercado de trabalho ou para continuar os estudos, com flexibilidade, visão crítica e capacidade de se adaptar a diferentes situações – dentro e fora das empresas."
+            android:text="@string/admdes"
             android:textSize="16sp"
             android:textColor="?android:textColorPrimary"
             android:lineSpacingExtra="6dp"
@@ -47,8 +45,8 @@ Ao final do curso, estará pronto para o mercado de trabalho ou para continuar o
             android:id="@+id/sobre_o_curso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="• Modalidade: presencial\n• Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso: Carlos Alberto Steinmetz\n• E-mail: administracao@rolante.ifrs.edu.br"
             android:textSize="16sp"
+            android:text="@string/adminfos"
             android:textColor="?android:textColorPrimary"
             android:lineSpacingExtra="4dp"
             android:justificationMode="inter_word" />

@@ -110,7 +110,20 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
  </string>
     <string name="dessporte">O campus tem se destacado em diversas modalidades, especialmente no handebol, onde já conquistou o terceiro lugar nos Jogos do IF, além de bons resultados no tênis de mesa, vôlei, atletismo, entre outras.
 </string>
+    <string name="admtitulo">     Técnico em Administração integrado ao ensino médio</string>
+    <string name="admdes"> O curso Técnico em Administração do IFRS – Campus Rolante prepara você com uma base sólida tanto nas disciplinas do ensino médio quanto nos conhecimentos da área administrativa. Ao longo da formação, você vai estudar português, matemática, ciências e filosofia, além de aprender sobre gestão de pessoas, finanças e processos organizacionais.
+     Ao final do curso, estará pronto para o mercado de trabalho ou para continuar os estudos, com flexibilidade, visão crítica e capacidade de se adaptar a diferentes situações – dentro e fora das empresas.
+</string>
+    <string name="adminfos">• Modalidade: presencial \n•Duração do curso: 8 semestres (4 anos)\n• Turno de funcionamento das turmas: manhã e tarde\n• Número de vagas: 35 (manhã) e 35 (tarde)\n• Coordenação do curso: Carlos Alberto Steinmetz\n• E-mail: administracao@rolante.ifrs.edu.br
+</string>
+
+
+
+
+
 
 
 
 </resources>
+
+
