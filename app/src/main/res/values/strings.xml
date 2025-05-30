@@ -11,7 +11,9 @@
     <string name="menu_inscricoes">Inscrições</string>
     <string name="menu_transporte">Trasporte</string>
     <string name="rolante">IFRS - Campus Rolante</string>
-    <string name="nucleos">Núcleos</string>
+    <string name="nucleos">Núcleos e Grupos de Estudos</string>
+    <string name="gepea">GEPEA</string>
+
     <string name="redes">Redes Sociais</string>
     <string name="dev">Desenvolvedoras</string>
     <string name="campusrolante">Campus Rolante</string>
@@ -177,7 +179,6 @@ No IFRS, o curso técnico em Comércio pelo PROEJA prepara os estudantes para o 
 
 
  </string>
-
 
 
 </resources>

@@ -41,6 +41,9 @@ public class nucleosFragment extends Fragment {
         binding.btnNeabi.setOnClickListener(v ->
                 Navigation.findNavController(v).navigate(R.id.action_nucleos_to_neabi)
         );
+        binding.btnGepea.setOnClickListener(v ->
+                Navigation.findNavController(v).navigate(R.id.action_nucleos_to_gepea)
+        );
         return root;
     }
 }

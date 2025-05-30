@@ -172,12 +172,20 @@
             android:id="@+id/action_nucleos_to_neabi"
             app:destination="@id/nav_neabi"
             />
+        <action
+            android:id="@+id/action_nucleos_to_gepea"
+            app:destination="@id/nav_gepea"
+            />
     </fragment>
 
     <fragment
         android:id="@+id/nav_numen"
         android:name="com.example.ifrs_campusrolante.ui.nucleos.numenFragment"
         android:label="@string/numen" />
+    <fragment
+        android:id="@+id/nav_gepea"
+        android:name="com.example.ifrs_campusrolante.Gepea"
+        android:label="@string/gepea" />
     <fragment
         android:id="@+id/nav_napne"
         android:name="com.example.ifrs_campusrolante.ui.nucleos.napneFragment"

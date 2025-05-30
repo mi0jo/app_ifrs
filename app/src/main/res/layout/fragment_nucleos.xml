@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Imagem de fundo -->
     <ImageView
         android:id="@+id/backgroundImage"
         android:layout_width="match_parent"
@@ -11,22 +10,17 @@
         android:scaleType="centerCrop"
         android:src="@drawable/pessoasestudando" />
 
-    <!-- Camada para conteúdo com fundo escuro semi-transparente -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="60dp"
             android:gravity="center"
-            android:background="#80000000"> <!-- Fundo escuro semi-transparente -->
-
-            <!-- Texto acima dos botões -->
-
-            <!-- Botões -->
+            android:background="#80000000">
 
             <TextView
                 android:id="@+id/texto_intro"
@@ -76,8 +70,15 @@
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/btn_gradient" />
 
+            <Button
+                android:id="@+id/btn_gepea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GEPEA"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_gradient" />
+
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
-
-
