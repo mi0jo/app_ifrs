@@ -26,7 +26,7 @@
     <string name="agro">Agropecuária</string>
     <string name="bolsas">Bolsas</string>
     <string name="esportes">Esportes</string>
-    <string name="visitas">Visítas técnicas</string>
+    <string name="visitas">Visitas técnicas</string>
     <string name="feiras">Feiras Científicas</string>
     <string name="olimpiadas">Olimpíadas de conhecimento</string>
     <string name="intercambio">Intercâmbio</string>
@@ -153,6 +153,21 @@ No IFRS, o curso técnico em Comércio pelo PROEJA prepara os estudantes para o 
     <string name="comercioinfo">• Modalidade: presencial \n • Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 40 \n• Coordenação do curso: Sabrina Favaretto Antunes\n• E-mail: comercio@rolante.ifrs.edu.br \n Requisito: 18 anos ou mais
 </string>
 
+    <string name="visitastecnicas">Oportunidades de Visitas Técnicas </string>
+
+    <string name="dessvisitastecnicas">    O IFRS – Campus Rolante proporciona aos estudantes visitas técnicas ao longo dos anos, com o objetivo de ampliar os conhecimentos adquiridos em sala de aula. As visitas são organizadas conforme os cursos e incluem destinos como o Space Adventure, feiras do livro, vinícolas, Expointer, além de empresas como SAP e DELL. Essas experiências aproximam os alunos da prática profissional e enriquecem sua formação.
+</string>
+
+    <string name="feirascientificas">Oportunidades de participação em Feiras Científicas </string>
+    <string name="desfeiras">     Para quem for selecionado como bolsista, há a oportunidade de participar como apresentador em feiras científicas, tanto em outros institutos federais quanto em universidades, congressos, na MOSTRATEC e no principal evento do IFRS, o Salão de Bento Gonçalves. Nessas feiras, além de apresentar seus projetos, os estudantes têm a chance de conhecer novas ideias, trocar experiências e ganhar destaque em suas áreas de pesquisa.\nO Campus Rolante já se destacou em diversos eventos, como a feira do IFRS – Viamão, a Moscling e o próprio Salão de Bento.
+</string>
+
+    <string name="olimpiadasti">Oportunidades de Olimpíadas de Conhecimento </string>
+    <string name="olimpiadasdes">Os professores do campus incentivam a participação dos estudantes em olimpíadas de conhecimento, como a Olimpíada Brasileira de Geografia (OBG), a Olimpíada Nacional em História do Brasil (ONHB), a Olimpíada Brasileira de Língua Inglesa (OBLI), entre outras. Essas competições estimulam o aprendizado, a pesquisa e o trabalho em equipe, além de proporcionarem uma oportunidade de ampliar os conhecimentos e representar o campus em nível nacional.  </string>
+
+    <string name="interdes">O IFRS divulga diversas oportunidades de intercâmbio, como o AFS Global STEM Accelerators e programas voltados para países como Japão, Estados Unidos, entre outros. Essas experiências são valiosas para o desenvolvimento do currículo acadêmico e para a ampliação do conhecimento. Dentro do instituto, é mais fácil ter acesso a essas oportunidades, já que elas são amplamente divulgadas e incentivadas pelos servidores, que apoiam os estudantes a participarem e se prepararem para os processos seletivos.
+ </string>
+    <string name="inter">Oportunidades de Intercâmbios Culturais </string>
 
 
 </resources>
