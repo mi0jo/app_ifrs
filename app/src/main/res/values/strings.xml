@@ -131,7 +131,7 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="tpgtitu"> Tecnologia em Processos Gerenciais</string>
     <string name="tpgdes"> O Tecnólogo em Processos Gerenciais é preparado para atuar em empresas públicas, privadas ou no seu próprio negócio, com foco em decisões estratégicas e visão empreendedora. O curso desenvolve habilidades em gestão de pessoas, finanças, marketing, logística e muito mais, sempre com base em princípios éticos e sustentáveis. Além disso, oferece uma ótima estrutura, com laboratórios, salas equipadas e acesso a bibliotecas físicas e virtuais que garantem uma formação conectada com a prática do mercado.
 </string>
-    <string name="tpginfo">• Modalidade: presencial \n • Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 35 \n• Coordenação do curso: Errol Fernando Zepka Pereira Júnior\n• E-mail: tpg@rolante.ifrs.edu.br \n Requisito: Ter concluido o Ensino médio
+    <string name="tpginfo">• Modalidade: presencial \n • Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 35 \n• Coordenação do curso: Errol Fernando Zepka Pereira Júnior\n• E-mail: tpg@rolante.ifrs.edu.br \n • Requisito: Ter concluido o Ensino médio
 </string>
 
     <string name="adstitu"> Tecnologia em Análise e Desenvolvimento de Sistemas </string>
@@ -143,7 +143,7 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="admejatitu">Técnico em Administração Integrado ao ensino médio - EJA EPT</string>
     <string name="admejades">O Técnico em Administração forma profissionais com visão crítica, atitude empreendedora e preparados para encarar os desafios de um mercado em constante mudança. Isso envolve planejamento, organização, gestão de equipes e processos, além de cuidar de tudo que faz uma empresa funcionar bem, como pessoas, materiais e informações.
 </string>
-    <string name="admejainfo">• Modalidade: presencial \n • Duração do curso: 4 semestres (2 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 35 \n• Coordenação do curso: Sabrina Favaretto Antunes\n• E-mail: eja.adm@rolante.ifrs.edu.br \n Requisito: 18 anos ou mais
+    <string name="admejainfo">• Modalidade: presencial \n • Duração do curso: 4 semestres (2 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 35 \n• Coordenação do curso: Sabrina Favaretto Antunes\n• E-mail: eja.adm@rolante.ifrs.edu.br \n • Requisito: 18 anos ou mais
 </string>
 
     <string name="comerciotitu">Técnico em Comércio Integrado ao Ensino médio - PROEJA </string>
@@ -168,6 +168,16 @@ No IFRS, o curso técnico em Comércio pelo PROEJA prepara os estudantes para o 
     <string name="interdes">O IFRS divulga diversas oportunidades de intercâmbio, como o AFS Global STEM Accelerators e programas voltados para países como Japão, Estados Unidos, entre outros. Essas experiências são valiosas para o desenvolvimento do currículo acadêmico e para a ampliação do conhecimento. Dentro do instituto, é mais fácil ter acesso a essas oportunidades, já que elas são amplamente divulgadas e incentivadas pelos servidores, que apoiam os estudantes a participarem e se prepararem para os processos seletivos.
  </string>
     <string name="inter">Oportunidades de Intercâmbios Culturais </string>
+
+    <string name="redesoficias">Redes Socias Oficias do IFRS </string>
+    <string name="redesoficiasdes">    O Instituto Federal conta com redes sociais oficiais, que você pode seguir para ficar por dentro de diversas novidades, como editais, eventos, oportunidades de bolsas, intercâmbios e outras informações importantes da comunidade acadêmica.
+ </string>
+    <string name="redesoficiasinsta">Site Campus Rolante: https://ifrs.edu.br/rolante/\n
+        Site IFRS: Site: https://ifrs.edu.br\n Facebook: IFRS - Campus Rolante \n Instagram: @ifrscampusrolante, @ifrsoficial\n X: @IFRSOficial\n YouTube: @IFRSOficial
+
+
+ </string>
+
 
 
 </resources>
