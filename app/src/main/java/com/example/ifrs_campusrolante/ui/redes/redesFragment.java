@@ -2,20 +2,23 @@ package com.example.ifrs_campusrolante.ui.redes;
 
 import android.os.Bundle;
 
+import androidx.core.text.HtmlCompat;
 import androidx.fragment.app.Fragment;
 
+import android.text.Spanned;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.ifrs_campusrolante.R;
-import com.example.ifrs_campusrolante.databinding.FragmentCursosBinding;
 import com.example.ifrs_campusrolante.databinding.FragmentRedesBinding;
 
 
 public class redesFragment extends Fragment {
 
     private FragmentRedesBinding binding;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
