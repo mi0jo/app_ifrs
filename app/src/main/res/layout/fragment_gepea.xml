@@ -1,14 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Gepea">
+    android:fillViewport="true">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gepea_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:padding="16dp">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Logo do GEPEA"
+            android:scaleType="centerInside"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/logogepea" />
+
+        <TextView
+            android:id="@+id/gepeaTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="GEPEA – Grupo de Estudos e Pesquisas sobre Educação, Antirracismo, Gênero e Juventude"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            app:layout_constraintTop_toBottomOf="@id/logoImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/gepeaDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="O GEPEA é um grupo interdisciplinar que promove reflexões e ações voltadas para a educação antirracista, com foco em questões de gênero e juventude. Reunindo estudantes, educadores e pesquisadores, o grupo realiza encontros, debates, projetos de extensão e produção de conhecimento crítico, buscando transformar práticas educacionais e combater desigualdades dentro e fora da escola."
+            android:justificationMode="inter_word"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?android:textColorPrimary"
+            app:layout_constraintTop_toBottomOf="@id/gepeaTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/gepeaContact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Contato: gepea@rolante.ifrs.edu.br\nInstagram: @gepea.ifrs"
+            android:justificationMode="inter_word"
+            android:textSize="14sp"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?android:textColorSecondary"
+            app:layout_constraintTop_toBottomOf="@id/gepeaDescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
+
+        <!-- Imagens 2x2 -->
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fotogepea"
+            app:layout_constraintTop_toBottomOf="@id/gepeaContact"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/image2"
+            app:layout_constraintWidth_percent="0.48" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/reuniaogepea"
+            app:layout_constraintTop_toBottomOf="@id/gepeaContact"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toEndOf="@id/image1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.48" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gepeaalvorada"
+            app:layout_constraintTop_toBottomOf="@id/image1"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/image4"
+            app:layout_constraintWidth_percent="0.48" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/showgepea"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image3"
+            app:layout_constraintTop_toBottomOf="@id/image2"
+            app:layout_constraintWidth_percent="0.48" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
