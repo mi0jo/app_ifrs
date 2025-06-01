@@ -39,11 +39,9 @@ public class esportesFragment extends Fragment {
 
         // Lista de imagens do drawable
         List<Integer> imagens = Arrays.asList(
-                R.drawable.hadebolmedalha,
-                R.drawable.xadrez,
+                R.drawable.handebolmedalha,
                 R.drawable.tenisdemesa,
-                R.drawable.delegacoes
-
+                R.drawable.xadrez
         );
 
         // Cria e configura o adapter
