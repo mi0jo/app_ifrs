@@ -39,7 +39,6 @@ public class numenFragment extends Fragment {
 
         // Lista de imagens do drawable
         List<Integer> imagens = Arrays.asList(
-                R.drawable.campusgentef,
                 R.drawable.numem,
                 R.drawable.doisanos,
                 R.drawable.quadra

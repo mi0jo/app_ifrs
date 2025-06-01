@@ -41,7 +41,6 @@ public class visitasFragment extends Fragment {
         List<Integer> imagens = Arrays.asList(
                 R.drawable.feiradolivropoa,
                 R.drawable.visitaadm,
-                R.drawable.feiradolivrorolante,
                 R.drawable.space,
                 R.drawable.visitaagro
 

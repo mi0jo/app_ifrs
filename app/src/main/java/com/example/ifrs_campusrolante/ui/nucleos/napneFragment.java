@@ -40,7 +40,7 @@ public class napneFragment extends Fragment {
         // Lista de imagens do drawable
         List<Integer> imagens = Arrays.asList(
                 R.drawable.napnepalestra,
-                R.drawable.napneaçao
+                R.drawable.napneacao
 
 
         );
