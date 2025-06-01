@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -9,7 +10,7 @@
         android:orientation="vertical"
         android:padding="9dp"
         android:gravity="center_horizontal"
-        android:background="?android:attr/windowBackground"> <!-- adapta ao tema -->
+        android:background="?android:attr/windowBackground">
 
         <ImageView
             android:id="@+id/logo_numem"
@@ -30,69 +31,84 @@
             android:layout_marginBottom="12dp"
             android:textAlignment="center" />
 
-        <TextView
-            android:id="@+id/descricao_numem"
+        <!-- CardView com descrição e links -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="?android:attr/textColorPrimary"
-            android:justificationMode="inter_word"
-            android:textSize="15sp"
-            android:lineSpacingExtra="6dp"
-            android:text="@string/memorias"
-            android:layout_marginBottom="6dp" />
+            android:layout_marginBottom="14dp"
+            android:layout_marginTop="6dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
 
-        <TextView
-            android:id="@+id/contato"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/contatonumen"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textSize="14sp"
-            android:autoLink="email"
-            android:layout_marginBottom="8dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-        <TextView
-            android:id="@+id/site"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sitenumen"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textSize="14sp"
-            android:autoLink="web"
-            android:layout_marginBottom="8dp" />
+                <TextView
+                    android:id="@+id/descricao_numem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:justificationMode="inter_word"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="@string/memorias"
+                    android:layout_marginBottom="12dp" />
 
-        <TextView
-            android:id="@+id/linha_do_tempo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/linhadotempo"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textSize="14sp"
-            android:autoLink="web"
-            android:layout_marginBottom="8dp" />
+                <TextView
+                    android:id="@+id/contato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contatonumen"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="14sp"
+                    android:autoLink="email"
+                    android:layout_marginBottom="8dp" />
 
-        <TextView
-            android:id="@+id/instagram"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/instanumen"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textSize="14sp"
-            android:autoLink="web"
-            android:layout_marginBottom="14dp" />
+                <TextView
+                    android:id="@+id/site"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sitenumen"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="14sp"
+                    android:autoLink="web"
+                    android:layout_marginBottom="8dp" />
 
-        <ImageView
-            android:id="@+id/campusfoto"
+                <TextView
+                    android:id="@+id/linha_do_tempo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linhadotempo"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="14sp"
+                    android:autoLink="web"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/instagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instanumen"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="14sp"
+                    android:autoLink="web" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewCarousel"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_marginBottom="24dp"
-            android:src="@drawable/campusgentef"
-            android:scaleType="fitCenter" />
+            android:layout_marginBottom="16dp"
+            android:clipToPadding="false"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
 
     </LinearLayout>
 </ScrollView>
-
-
 
 
 

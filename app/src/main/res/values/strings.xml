@@ -47,7 +47,7 @@ Com foco em formar profissionais preparados para o mercado, o campus atua nos ei
 
 Ah, e um detalhe importante: o Campus Rolante é a única instituição pública federal de educação profissional do Vale do Paranhana, região com cerca de 200 mil pessoas.</string>
     <string name="location_campus">Rodovia RS-239, Km 68, Nº 3505 (Estrada Taquara/Rolante) | CEP: 95690-000 | Rolante/RS Caixa Postal 118 (correspondência) | Telefone: (51) 3547-9600</string>
-    <string name="nucleosif">Os núcleos do IFRS, presentes em campi como o de Rolante, são espaços de apoio e coordenação dedicados a áreas específicas, como educação a distância, arte e cultura, estudos afro-brasileiros e indígenas, gênero e sexualidade, entre outras. Com atuação integrada ao ensino, à pesquisa, à extensão e às ações afirmativas, eles fortalecem a formação de profissionais e promovem a inclusão e a valorização da diversidade na comunidade acadêmica.</string>
+    <string name="nucleosif">Os núcleos e grupos de estudos do IFRS, presentes em campi como o de Rolante, são espaços de apoio e coordenação dedicados a áreas específicas, como educação a distância, arte e cultura, estudos afro-brasileiros e indígenas, gênero e sexualidade, entre outras. Com atuação integrada ao ensino, à pesquisa, à extensão e às ações afirmativas, eles fortalecem a formação de profissionais e promovem a inclusão e a valorização da diversidade na comunidade acadêmica.</string>
 
 
     <string name="nucleodememorias">Núcleo de Memória (NuMem) </string>
@@ -92,14 +92,14 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
 
     <string name="desensino"> Os projetos de Ensino são voltados principalmente para a comunidade interna do campus e têm como objetivo fortalecer os processos de aprendizagem e apoio pedagógico. Dentro dessa modalidade, destaca-se a monitoria, em que estudantes auxiliam colegas em disciplinas específicas, contribuindo para a melhoria do desempenho acadêmico e o fortalecimento da troca de conhecimentos.
 </string>
-    <string name="instaensino"> A seguir alguns projetos de ensino que atuam na nossa instituição: @englishclub_ifrs_rolante, @bovinocultura.ifrs, @clube_astronomia_rolante
+    <string name="instaensino"> A seguir alguns projetos de ensino que atuam na nossa instituição: \n@englishclub_ifrs_rolante \n@bovinocultura.ifrs \n@clube_astronomia_rolante
 </string>
-    <string name="instapesquisa"> A seguir o insta de um projeto de pesquisa que atua no Campus Rolante: @projeto_hidromet
+    <string name="instapesquisa"> A seguir o insta de um projeto de pesquisa que atua no Campus Rolante: \n@projeto_hidromet
 </string>
-    <string name="instaextensao"> A seguir alguns projetos de extensão que atuam no Campus Rolante: @ciencia_itinerante_ifrsrolante, @horah_rolante_ifrs, @inspirando_gurias
+    <string name="instaextensao"> A seguir alguns projetos de extensão que atuam no Campus Rolante: \n@ciencia_itinerante_ifrsrolante \n@horah_rolante_ifrs \n@inspirando_gurias
 </string>
 
-    <string name="instaindissociaveis"> A seguir o insta de um projeto indissociável que atua no Campus Rolante:  @fortalecendo.a_sabedoria</string>
+    <string name="instaindissociaveis"> A seguir o insta de um projeto indissociável que atua no Campus Rolante:  \n@fortalecendo.a_sabedoria</string>
 
     <string name="desextensao"> Os projetos de Extensão têm como foco principal a interação entre o IF e a comunidade externa, promovendo a troca de saberes e contribuindo para o desenvolvimento social, cultural e tecnológico da região. Essas ações buscam levar o conhecimento produzido no campus para além de seus muros, fortalecendo o vínculo com a sociedade e promovendo a cidadania.
 </string>
@@ -149,8 +149,7 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
 </string>
 
     <string name="comerciotitu">Técnico em Comércio Integrado ao Ensino médio - PROEJA </string>
-    <string name="comerciodes">O PROEJA é um programa que une ensino médio e formação técnica, pensado para jovens e adultos com mais de 18 anos. A proposta vai além da qualificação para o mercado: busca uma formação completa, que ajude a entender o mundo e atuar nele de forma crítica e transformadora.\n
-No IFRS, o curso técnico em Comércio pelo PROEJA prepara os estudantes para o mercado com uma base sólida em administração, contabilidade, finanças, marketing e vendas. Tudo isso com foco no empreendedorismo, cidadania e nas relações humanas, especialmente no atendimento e na negociação com clientes.
+    <string name="comerciodes">O PROEJA é um programa que une ensino médio e formação técnica, pensado para jovens e adultos com mais de 18 anos. A proposta vai além da qualificação para o mercado: busca uma formação completa, que ajude a entender o mundo e atuar nele de forma crítica e transformadora.\nNo IFRS, o curso técnico em Comércio pelo PROEJA prepara os estudantes para o mercado com uma base sólida em administração, contabilidade, finanças, marketing e vendas. Tudo isso com foco no empreendedorismo, cidadania e nas relações humanas, especialmente no atendimento e na negociação com clientes.
 </string>
     <string name="comercioinfo">• Modalidade: presencial \n • Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 40 \n• Coordenação do curso: Sabrina Favaretto Antunes\n• E-mail: comercio@rolante.ifrs.edu.br \n Requisito: 18 anos ou mais
 </string>
@@ -178,9 +177,13 @@ No IFRS, o curso técnico em Comércio pelo PROEJA prepara os estudantes para o 
     <string name="redeso">        O Campus Rolante publica a Revista Conecta, que divulga as principais atividades desenvolvidas por estudantes e servidores ao longo do ano. A edição de 2024 está disponível neste link.
  </string>
     <string name="redesoficias">Redes Socias Oficias do IFRS </string>
+    <string name="gepeades">    O GEPEA é um grupo interdisciplinar que promove reflexões e ações voltadas para a educação antirracista, com foco em questões de gênero e juventude. Reunindo estudantes, educadores e pesquisadores, o grupo realiza encontros, debates, projetos de extensão e produção de conhecimento crítico, buscando transformar práticas educacionais e combater desigualdades dentro e fora da escola.
+</string>
 
-
-
+    <string name="redesoficiasgepea">    Contato: gepea@rolante.ifrs.edu.br\nInstagram: @gepea.ifrs
+</string>
+    <string name="gepeadess">    GEPEA – Grupo de Estudos e Pesquisas sobre Educação, Antirracismo, Gênero e Juventude
+ </string>
 
 </resources>
 

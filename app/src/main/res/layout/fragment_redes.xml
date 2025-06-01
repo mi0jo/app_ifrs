@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
@@ -10,6 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal">
+
         <TextView
             android:id="@+id/titulo_numem"
             android:layout_width="wrap_content"
@@ -21,36 +23,43 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <!-- Texto 1 -->
-        <TextView
-            android:id="@+id/texto_bolsas_1"
+        <!-- CardView com os dois TextViews juntos -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:justificationMode="inter_word"
-            android:text="@string/redesoficiasdes"
-            android:textSize="19sp"
-            android:lineSpacingExtra="6dp"
-            android:textColor="?android:attr/textColorPrimary"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
 
-        <!-- Primeira imagem -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
 
+                <TextView
+                    android:id="@+id/texto_bolsas_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/redesoficiasdes"
+                    android:textSize="19sp"
+                    android:lineSpacingExtra="6dp"
+                    android:textColor="?android:attr/textColorPrimary" />
 
-        <!-- Texto 2 -->
+                <TextView
+                    android:id="@+id/linha_do_tempo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/redesoficiasinsta"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="18sp"
+                    android:autoLink="web" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-
-        <TextView
-            android:id="@+id/linha_do_tempo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:justificationMode="inter_word"
-
-            android:text="@string/redesoficiasinsta"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textSize="18sp"
-            android:autoLink="web"
-            android:layout_marginBottom="8dp" />
-
+        <!-- Imagem -->
         <ImageView
             android:id="@+id/campusfoto"
             android:layout_width="match_parent"
@@ -58,17 +67,5 @@
             android:layout_marginBottom="27dp"
             android:src="@drawable/sitecampus"
             android:scaleType="fitCenter" />
-
-
-
-
-
-
-
-
-
-
-
-
     </LinearLayout>
 </ScrollView>

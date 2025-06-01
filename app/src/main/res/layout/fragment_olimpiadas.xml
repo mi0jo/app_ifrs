@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
@@ -10,6 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal">
+
         <TextView
             android:id="@+id/titulo_numem"
             android:layout_width="wrap_content"
@@ -21,38 +23,42 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <!-- Texto 1 -->
-        <TextView
-            android:id="@+id/texto_bolsas_1"
+        <!-- CardView com texto e imagem juntos -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:justificationMode="inter_word"
-            android:text="@string/olimpiadasdes"
-            android:textSize="16sp"
-            android:lineSpacingExtra="6dp"
-            android:textColor="?android:attr/textColorPrimary"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
 
-        <!-- Primeira imagem -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Texto dentro do Card -->
+                <TextView
+                    android:id="@+id/texto_bolsas_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/olimpiadasdes"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="6dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:layout_marginBottom="12dp" />
 
 
-        <!-- Texto 2 -->
-
-
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
         <ImageView
             android:id="@+id/imagem_bolsa_1"
-            android:layout_width="369dp"
-            android:layout_height="313dp"
-            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:src="@drawable/obg" />
-
-
-
-
-
-
-
 
     </LinearLayout>
 </ScrollView>

@@ -3,26 +3,59 @@ package com.example.ifrs_campusrolante.ui.rolante;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.ifrs_campusrolante.ui.carrossel.CarouselAdapter;
 import com.example.ifrs_campusrolante.R;
-import com.example.ifrs_campusrolante.databinding.FragmentCursosBinding;
-import com.example.ifrs_campusrolante.databinding.FragmentRolanteBinding;
 
+import java.util.Arrays;
+import java.util.List;
 
 public class rolanteFragment extends Fragment {
 
-    private FragmentRolanteBinding binding;
+    public rolanteFragment() {
+        // Construtor vazio obrigatório
+    }
+
+    public static rolanteFragment newInstance() {
+        return new rolanteFragment();
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        binding = FragmentRolanteBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_rolante, container, false);
+        // Infla o layout da fragment
+        View view = inflater.inflate(R.layout.fragment_rolante, container, false);
+
+        // === ETAPA 5: Configuração do carrossel ===
+        RecyclerView recyclerView = view.findViewById(R.id.recyclerViewCarousel);
+
+        // Lista de imagens do drawable
+        List<Integer> imagens = Arrays.asList(
+                R.drawable.campus_photo,
+                R.drawable.dentrodocampus,
+                R.drawable.quadracampus,
+                R.drawable.entradacampus
+        );
+
+        // Cria e configura o adapter
+        CarouselAdapter adapter = new CarouselAdapter(imagens);
+        recyclerView.setAdapter(adapter);
+
+        // Define o layout horizontal
+        recyclerView.setLayoutManager(
+                new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false)
+        );
+        Log.d("CAROUSEL", "Imagens carregadas: " + imagens.size());
+
+
+        return view;
     }
 }

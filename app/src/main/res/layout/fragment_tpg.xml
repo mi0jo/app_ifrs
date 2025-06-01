@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
@@ -22,7 +23,7 @@
 
         <TextView
             android:id="@+id/titulo_curso"
-            android:layout_width="256dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:text="@string/tpgtitu"
@@ -31,29 +32,43 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/descricao_curso"
+        <!-- CardView ÚNICO para Descrição + Sobre o Curso -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tpgdes"
-            android:textSize="16sp"
-            android:textColor="?android:attr/textColorPrimary"
-            android:lineSpacingExtra="6dp"
-            android:justificationMode="inter_word"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/descricao_curso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tpgdes"
+                    android:textSize="16sp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:lineSpacingExtra="6dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginBottom="12dp" />
 
 
-
-        <TextView
-            android:id="@+id/sobre_o_curso"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tpginfo"
-
-            android:textSize="16sp"
-            android:textColor="?android:attr/textColorPrimary"
-            android:lineSpacingExtra="4dp"
-            android:justificationMode="inter_word" />
+                <TextView
+                    android:id="@+id/sobre_o_curso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tpginfo"
+                    android:textSize="16sp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:lineSpacingExtra="4dp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 </ScrollView>
