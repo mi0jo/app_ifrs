@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Transportes IFRS"
+            android:text="@string/trandsportesif"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="?android:textColorPrimary"
@@ -33,12 +33,12 @@
                 android:orientation="vertical"
                 android:padding="16dp">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="RBM Transportes" android:textSize="18sp" android:textStyle="bold"
+                    android:text="@string/rmb" android:textSize="18sp" android:textStyle="bold"
                     android:textColor="?android:textColorPrimary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Rota: Parobé e Taquara" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/rmbrota" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Contato: (51) 9 9669-3410" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/rmbcontato" android:textColor="?android:textColorSecondary" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -54,12 +54,12 @@
                 android:orientation="vertical"
                 android:padding="16dp">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Maroto Viagens" android:textSize="18sp" android:textStyle="bold"
+                    android:text="@string/maroto" android:textSize="18sp" android:textStyle="bold"
                     android:textColor="?android:textColorPrimary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Rota: Parobé e Taquara" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/marota" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Contato: (51) 9 9546-5084" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/macontato" android:textColor="?android:textColorSecondary" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -75,14 +75,14 @@
                 android:orientation="vertical"
                 android:padding="16dp">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Citral" android:textSize="18sp" android:textStyle="bold"
+                    android:text="@string/citral" android:textSize="18sp" android:textStyle="bold"
                     android:textColor="?android:textColorPrimary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Rota: Parobé, Taquara, Igrejinha e Santo Antônio" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/cirota" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Contato: (51) 9 9454-6869" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/cicontato" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Passe livre ou por vale transporte" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/ci" android:textColor="?android:textColorSecondary" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -98,14 +98,14 @@
                 android:orientation="vertical"
                 android:padding="16dp">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="DC Turismo" android:textSize="18sp" android:textStyle="bold"
+                    android:text="@string/dc" android:textSize="18sp" android:textStyle="bold"
                     android:textColor="?android:textColorPrimary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Rota: Parobé e Taquara" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/dcrota" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Contato 1: (51) 99646-6420" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/dccontato" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Contato 2: (51) 99757-2416" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/dccontato2" android:textColor="?android:textColorSecondary" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -121,12 +121,12 @@
                 android:orientation="vertical"
                 android:padding="16dp">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="MW" android:textSize="18sp" android:textStyle="bold"
+                    android:text="@string/mw" android:textSize="18sp" android:textStyle="bold"
                     android:textColor="?android:textColorPrimary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Rota: Rolante" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/mwrota" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Contato: (51) 99779-6900" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/mwcontato" android:textColor="?android:textColorSecondary" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -142,12 +142,12 @@
                 android:orientation="vertical"
                 android:padding="16dp">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Salvador" android:textSize="18sp" android:textStyle="bold"
+                    android:text="@string/salvador" android:textSize="18sp" android:textStyle="bold"
                     android:textColor="?android:textColorPrimary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Rota: Parobé, Taquara e Igrejinha" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/sarota" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Contato: (51) 9 8331-083" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/sacontato" android:textColor="?android:textColorSecondary" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -163,12 +163,12 @@
                 android:orientation="vertical"
                 android:padding="16dp">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Tchê Leva" android:textSize="18sp" android:textStyle="bold"
+                    android:text="@string/tche" android:textSize="18sp" android:textStyle="bold"
                     android:textColor="?android:textColorPrimary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Rota: Rolante" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/tcherota" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Contato: (51) 9 9707-2829" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/tchecontato" android:textColor="?android:textColorSecondary" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -183,14 +183,14 @@
                 android:orientation="vertical"
                 android:padding="16dp">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Transporte Público de Rolante" android:textSize="18sp"
+                    android:text="@string/publico" android:textSize="18sp"
                     android:textStyle="bold" android:textColor="?android:textColorPrimary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Rota: Rolante" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/purota" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Embarque em frente à escola Souza Cruz" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/pucontato" android:textColor="?android:textColorSecondary" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Horários: 07h15 (manhã) e 13h (tarde)" android:textColor="?android:textColorSecondary" />
+                    android:text="@string/puhor" android:textColor="?android:textColorSecondary" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 

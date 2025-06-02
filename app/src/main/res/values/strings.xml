@@ -151,7 +151,7 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="comerciotitu">Técnico em Comércio Integrado ao Ensino médio - PROEJA </string>
     <string name="comerciodes">O PROEJA é um programa que une ensino médio e formação técnica, pensado para jovens e adultos com mais de 18 anos. A proposta vai além da qualificação para o mercado: busca uma formação completa, que ajude a entender o mundo e atuar nele de forma crítica e transformadora.\nNo IFRS, o curso técnico em Comércio pelo PROEJA prepara os estudantes para o mercado com uma base sólida em administração, contabilidade, finanças, marketing e vendas. Tudo isso com foco no empreendedorismo, cidadania e nas relações humanas, especialmente no atendimento e na negociação com clientes.
 </string>
-    <string name="comercioinfo">• Modalidade: presencial \n • Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 40 \n• Coordenação do curso: Sabrina Favaretto Antunes\n• E-mail: comercio@rolante.ifrs.edu.br \n Requisito: 18 anos ou mais
+    <string name="comercioinfo">• Modalidade: presencial \n• Duração do curso: 6 semestres (3 anos)\n• Turno de funcionamento das turmas: noite\n• Número de vagas: 40 \n• Coordenação do curso: Sabrina Favaretto Antunes\n• E-mail: comercio@rolante.ifrs.edu.br \n• Requisito: 18 anos ou mais
 </string>
 
     <string name="visitastecnicas">Oportunidades de Visitas Técnicas </string>
@@ -185,6 +185,69 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
     <string name="gepeadess">    GEPEA – Grupo de Estudos e Pesquisas sobre Educação, Antirracismo, Gênero e Juventude
  </string>
 
+    <string name="fernanda"> Fernanda dos Santos Sehn</string>
+    <string name="fernandades"> Estudante do curso técnico de informática integrado ao ensino médio, é membro ativo do Grupo de Estudos e Pesquisas sobre Educação, Antirracismo, Gênero e Juventude, atualmente é bolsista do projeto de pesquisa Educação Física Escolar e Justiça Social: a autoetnografia como ferramenta de reflexão sobre as práticas pedagógicas.\nE-mail para contato: \nfernandasehn6@gmail.com
+</string>
+    <string name="milena"> Milena de Souza Sutel</string>
+    <string name="milenades">Estudante do curso técnico de informática integrado ao ensino médio, é membro ativo do Núcleo de Estudos e Pesquisa em Gênero e Sexualidade (NEPGS), atualmente é bolsista do projeto de ensino Centro de escrita na Educação Profissional e Tecnológica: desmistificando as práticas de letramento acadêmico - profissionais.\nE-mail para contato: \nmilenasouzasutel8@gmail.com</string>
+
+    <string name="sofia"> Sofia Müller David</string>
+    <string name="sofiades">Estudante do curso técnico de informática integrado ao ensino médio, é membro ativo do Grupo de Pesquisa em Educação e Inovação Científica, do(a) Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul, atualmente é bolsista do projeto de pesquisa EcoVasos: Desenvolvimento de embalagens para o armazenamento de mudas vegetais à partir de materiais biodegradáveis.\nE-mail para contato: \nsofiamuller1201@gmail.com</string>
+
+    <string name="auxilio">Auxílio Estudantil</string>
+    <string name="auxiliodes">    Os auxílios estudantis são oferecidos pelo IF para apoiar a permanência dos estudantes nos cursos, especialmente aqueles em situação de vulnerabilidade socioeconômica. Eles podem ajudar com despesas como alimentação, moradia e outras necessidades do dia a dia. A solicitação é feita por meio de editais, com inscrição realizada pelo site da Assistência Estudantil.
+</string>
+    <string name="auxiliopermanencia">O Auxílio Permanência é um importante apoio oferecido aos estudantes para contribuir com suas despesas acadêmicas e do dia a dia escolar. Ele busca garantir melhores condições de permanência no curso, especialmente para quem enfrenta dificuldades socioeconômicas. A seleção é feita com base em uma avaliação detalhada da situação do estudante e de sua família. Cada aluno pode ser enquadrado em um dos quatro grupos de pagamento, de acordo com sua vulnerabilidade social.
+</string>
+    <string name="auxiliomoradia">O Auxílio Moradia é destinado a estudantes que precisam mudar de cidade para estudar e, por isso, enfrentam despesas com moradia. Esse apoio financeiro ajuda a garantir que o aluno possa permanecer próximo ao campus, com mais segurança e tranquilidade. Ele é oferecido por meio de edital anual, com critérios específicos de seleção.
+</string>
+    <string name="auxiliom">Auxílio Moradia</string>
+    <string name="auxiliop">Auxílio Permanência</string>
+    <string name="ingressar">    Como ingressar no IFRS Campus Rolante</string>
+    <string name="ingressarma">    O ingresso nos cursos ocorre por seleção pública, com prova, sorteio ou Enem. Cada curso detalha o tipo de seleção em edital oficial. Cursos são gratuitos, mas a seleção pode ter taxa (com isenção possível). Informações no site de ingresso.
+ </string>
+    <string name="cotas">    Ações Afirmativas e Cotas</string>
+    <string name="cotasdes">     O IFRS reserva vagas para pessoas negras, indígenas e quilombolas. Para negros, há comissão de heteroidentificação. Indígenas devem apresentar RANI ou declaração de liderança. Quilombolas precisam comprovar vínculo com a comunidade.
+</string>
+    <string name="provas">     Provas e Gabaritos</string>
+    <string name="siteingresso">     Site de Ingresso</string>
+    <string name="editais"> Editais</string>
+    <string name="trandsportesif">Transportes IFRS</string>
+
+    <string name="rmb">RBM Transportes</string>
+    <string name="rmbcontato">Contato: (51) 9 9669-3410</string>
+    <string name="rmbrota">Rota: Parobé e Taquara</string>
+
+    <string name="maroto">Maroto Viagens</string>
+    <string name="macontato">Contato: (51) 9 9546-5084</string>
+    <string name="marota">Rota: Parobé e Taquara</string>
+
+    <string name="citral"> Citral</string>
+    <string name="cicontato">Contato: (51) 9 9454-6869</string>
+    <string name="cirota">Rota: Parobé, Taquara, Igrejinha e Santo Antônio</string>
+    <string name="ci">    Passe livre ou por vale transporte</string>
+
+    <string name="dc">DC Turismo</string>
+    <string name="dccontato">Contato 1: (51) 99646-6420</string>
+    <string name="dcrota">Rota: Parobé e Taquara</string>
+    <string name="dccontato2">Contato 2: (51) 99757-2416</string>
+
+    <string name="mw">MW</string>
+    <string name="mwcontato">Contato: (51) 99779-6900</string>
+    <string name="mwrota">Rota: Rolante</string>
+
+    <string name="salvador">Salvador</string>
+    <string name="sacontato">Contato: (51) 9 8331-083</string>
+    <string name="sarota">Rota: Parobé, Taquara e Igrejinha</string>
+
+    <string name="tche">Tchê Leva</string>
+    <string name="tchecontato">Contato: (51) 9 9707-2829</string>
+    <string name="tcherota">Rota: Rolante</string>
+
+    <string name="publico">Transporte Público de Rolante</string>
+    <string name="pucontato">Embarque em frente à escola Souza Cruz</string>
+    <string name="purota">Rota: Rolante</string>
+    <string name="puhor">Horários: 07h15 (manhã) e 13h (tarde)</string>
 </resources>
 
 

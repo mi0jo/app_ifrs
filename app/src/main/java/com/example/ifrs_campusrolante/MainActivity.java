@@ -1,5 +1,7 @@
 package com.example.ifrs_campusrolante;
 
+import static android.app.PendingIntent.getActivity;
+
 import android.os.Bundle;
 
 import com.google.android.material.navigation.NavigationView;
@@ -18,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 
 
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_inscricao,
                 R.id.nav_oportunidades,
                 R.id.nav_nucleos,
+                R.id.nav_auxilio,
                 R.id.nav_transporte,
                 R.id.nav_redes,
                 R.id.nav_desenvolvedoras
@@ -56,9 +58,12 @@ public class MainActivity extends AppCompatActivity {
         toggle.syncState();
     }
 
-    @Override
+
+
     public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        return navController.navigateUp();
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
+                || super.onSupportNavigateUp();
     }
+
 }

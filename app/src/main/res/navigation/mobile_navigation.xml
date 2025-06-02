@@ -220,6 +220,10 @@
         android:name="com.example.ifrs_campusrolante.ui.rolante.rolanteFragment"
         android:label="@string/campusrolante"
         tools:layout="@layout/fragment_rolante" />
-
+    <fragment
+        android:id="@+id/nav_auxilio"
+        android:name="com.example.ifrs_campusrolante.ui.auxilio.auxilioFragment"
+        android:label="@string/auxilio"
+        tools:layout="@layout/fragment_auxilio" />
 
 </navigation>
