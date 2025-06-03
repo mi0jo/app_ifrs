@@ -13,7 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.ifrs_campusrolante.ui.carrossel.CarouselAdapter;
-import com.example.ifrs_campusrolante.R;
 
 import java.util.Arrays;
 import java.util.List;

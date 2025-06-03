@@ -1,25 +1,23 @@
 package com.example.ifrs_campusrolante;
 
-import static android.app.PendingIntent.getActivity;
-
 import android.os.Bundle;
-
-import com.google.android.material.navigation.NavigationView;
-
-import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.ifrs_campusrolante.databinding.ActivityMainBinding;
+import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
+
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
-
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -44,26 +42,29 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupWithNavController(navigationView, navController);
 
+        // Evita navegar para a mesma tela repetidamente
+        navigationView.setNavigationItemSelectedListener(item -> {
+            int id = item.getItemId();
+
+            if (navController.getCurrentDestination() == null || navController.getCurrentDestination().getId() != id) {
+                navController.navigate(id);
+            }
+
+            drawer.closeDrawer(GravityCompat.START);
+            return true;
+        });
+
+        // Define a toolbar como ActionBar
         setSupportActionBar(binding.appBarMain.toolbar);
+
+        // Configura o ActionBar para funcionar com NavController e DrawerLayout
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-
-
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this,
-                binding.drawerLayout,
-                binding.appBarMain.toolbar,
-                R.string.navigation_drawer_open,
-                R.string.navigation_drawer_close);
-        binding.drawerLayout.addDrawerListener(toggle);
-        toggle.syncState();
     }
 
-
-
+    @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
-
 }

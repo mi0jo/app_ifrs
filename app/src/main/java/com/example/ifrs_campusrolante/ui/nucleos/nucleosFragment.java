@@ -10,9 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.ifrs_campusrolante.R;
-import com.example.ifrs_campusrolante.databinding.FragmentInscricaoBinding;
 import com.example.ifrs_campusrolante.databinding.FragmentNucleosBinding;
-import com.example.ifrs_campusrolante.databinding.FragmentOportunidadesBinding;
 
 
 public class nucleosFragment extends Fragment {
