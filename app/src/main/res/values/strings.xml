@@ -172,7 +172,7 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
 
     <string name="redesoficiasdes">    O Instituto Federal conta com redes sociais oficiais, que você pode seguir para ficar por dentro de diversas novidades, como editais, eventos, oportunidades de bolsas, intercâmbios e outras informações importantes da comunidade acadêmica.
  </string>
-    <string name="redesoficiasinsta">Site Campus Rolante: https://ifrs.edu.br/rolante \nSite IFRS: https://ifrs.edu.br\nFacebook: IFRS - Campus Rolante \nInstagram: @ifrscampusrolante, @ifrsoficial\nX: @IFRSOficial\nYouTube: @IFRSOficial\nRevista Conecta: https://ifrs.edu.br/rolante/wp-content/uploads/sites/14/2025/01/revista-conecta-2024-editada-final-2.pdf
+    <string name="redesoficiasinsta">Site Campus Rolante: https://ifrs.edu.br/rolante \nSite IFRS: https://ifrs.edu.br\nFacebook: IFRS - Campus Rolante \nInstagram: @ifrscampusrolante, @ifrsoficial\nX: @IFRSOficial\nYouTube: @IFRSOficial, @ifrscampusrolante\nRevista Conecta: https://ifrs.edu.br/rolante/wp-content/uploads/sites/14/2025/01/revista-conecta-2024-editada-final-2.pdf
  </string>
     <string name="redeso">        O Campus Rolante publica a Revista Conecta, que divulga as principais atividades desenvolvidas por estudantes e servidores ao longo do ano. A edição de 2024 está disponível neste link.
  </string>
@@ -242,12 +242,16 @@ Ah, e um detalhe importante: o Campus Rolante é a única instituição pública
 
     <string name="tche">Tchê Leva</string>
     <string name="tchecontato">Contato: (51) 9 9707-2829</string>
-    <string name="tcherota">Rota: Rolante</string>
+    <string name="tcherota">Rota: Rolante e Riozinho</string>
 
     <string name="publico">Transporte Público de Rolante</string>
     <string name="pucontato">Embarque em frente à escola Souza Cruz</string>
     <string name="purota">Rota: Rolante</string>
-    <string name="puhor">Horários: 07h15 (manhã) e 13h (tarde)</string>
+    <string name="puhor">Horários: 07h15 (manhã), 13h (tarde) e 19h (noite)</string>
+
+    <string name="interc">    Estudantes do IFRS Campus Rolante são selecionadas para programa de intercâmbio intercultural global
+</string>
+
 </resources>
 
 

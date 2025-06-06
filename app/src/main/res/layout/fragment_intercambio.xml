@@ -45,13 +45,29 @@
         </androidx.cardview.widget.CardView>
 
         <!-- Imagem mantida -->
-        <ImageView
-            android:id="@+id/imagem_bolsa_1"
-            android:layout_width="369dp"
-            android:layout_height="313dp"
-            android:layout_marginBottom="24dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/afs" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imagem_bolsa_1"
+                android:layout_width="346dp"
+                android:layout_height="223dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/afs" />
+
+            <TextView
+                android:id="@+id/textLinkIntercambio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interc"
+                android:textColor="@android:color/holo_blue_dark"
+                android:autoLink="web"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="8dp"/>
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>

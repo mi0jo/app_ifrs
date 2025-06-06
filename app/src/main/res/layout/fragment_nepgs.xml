@@ -18,7 +18,7 @@
             android:layout_height="125dp"
             android:layout_marginBottom="2dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/logonepgs" />
+            android:src="@drawable/nepgslogo" />
 
         <TextView
             android:id="@+id/titulo_numem"

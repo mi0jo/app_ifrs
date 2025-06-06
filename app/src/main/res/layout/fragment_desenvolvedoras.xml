@@ -38,10 +38,10 @@
                 android:gravity="center_vertical">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/gepeaalvorada"
-                    android:layout_marginEnd="16dp" />
+                    android:layout_width="83dp"
+                    android:layout_height="104dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/fernanda" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -88,9 +88,9 @@
                 android:gravity="center_vertical">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/moscling"
+                    android:layout_width="83dp"
+                    android:layout_height="104dp"
+                    android:src="@drawable/milena"
                     android:layout_marginEnd="16dp" />
 
                 <LinearLayout
@@ -138,9 +138,9 @@
                 android:gravity="center_vertical">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/mostratec"
+                    android:layout_width="83dp"
+                    android:layout_height="104dp"
+                    android:src="@drawable/sofia"
                     android:layout_marginEnd="16dp" />
 
                 <LinearLayout
@@ -176,7 +176,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/campusgente"
+            android:src="@drawable/juntas"
             android:scaleType="fitCenter"
             android:contentDescription="Imagem final do projeto" />
 

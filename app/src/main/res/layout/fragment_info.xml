@@ -16,7 +16,7 @@
             android:id="@+id/logo_info"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/logo_info"
+            android:src="@drawable/logoinfo"
             android:contentDescription="Logo do curso de Informática"
             android:layout_marginBottom="16dp"
             android:scaleType="fitCenter" />
@@ -65,7 +65,7 @@
                     android:textSize="16sp"
                     android:textColor="?android:attr/textColorPrimary"
                     android:lineSpacingExtra="4dp"
-                    android:justificationMode="inter_word" />
+                     />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

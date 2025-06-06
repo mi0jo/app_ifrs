@@ -19,7 +19,7 @@
             android:layout_marginBottom="16dp"
             android:contentDescription="Logo do curso de Informática"
             android:scaleType="fitCenter"
-            android:src="@drawable/logo_adm" />
+            android:src="@drawable/logoadm" />
 
         <TextView
             android:id="@+id/titulo_curso"
@@ -64,7 +64,7 @@
                     android:textSize="16sp"
                     android:textColor="?android:attr/textColorPrimary"
                     android:lineSpacingExtra="4dp"
-                    android:justificationMode="inter_word" />
+                     />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
